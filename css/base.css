@@ -19,6 +19,13 @@
     --lightest-gray: rgb(224, 222, 214);
     --light-green: rgb(94, 205, 50);
     --light-red: rgb(230, 59, 59);
+    --lightest-blue: rgb(197, 224, 236);
+    --lightest-green: rgb(183, 245, 167);
+    --lightest-red: rgb(253, 165, 165);
+    --lightest-yellow: rgb(245, 245, 159);
+    --lightest-turquiose: rgb(167, 252, 252);
+    --green: rgb(102, 141, 31);
+    --turquoise: rgb(60, 224, 208);
 }
 
 body{
