@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------------typography starts--------------------------- */
+
+/* ---------headings---------- */
+
+h1 {
+    font: 3rem;
+    line-height: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h5 {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+h6 {
+    font-size: 0.1rem;
+    line-height: 0.5rem;
+}
+
+/* ---------texts---------- */
+
+.t-1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.t-2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.t-3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.t-4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.t-5 {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+/* ---------typography---------- */
+
+.fw-1 {
+    font-weight: 300;
+}
+
+.fw-2 {
+    font-weight: 400;
+}
+
+.fw-3 {
+    font-weight: 600;
+}
+
+.fw-4 {
+    font-weight: 700;
+}
+
+.fw-5 {
+    font-weight: 900;
+}
+
+/* -----------------------------typography ends--------------------------- */
+
+
+/* -----------------------------spacing starts--------------------------- */
+
+/* ---------spacing---------- */
+.m-1 {
+    margin: 0.5rem;
+}
+
+.m-2 {
+    margin: 1rem;
+}
+
+.m-3{
+    margin: 1.5rem;
+}
+
+.m-4{
+    margin: 2rem;
+}
+
+.m-5{
+    margin: 2.5rem;
+}
+
+.m-6{
+    margin: 4rem;
+}
+
+/* ---------border-radius---------- */
+
+.b-rad1{
+   border-radius: 5px;
+}
+
+.b-rad2{
+    border-radius: 10px;
+}
+
+.b-rad3{
+    border-radius: 15px;
+}
+
+.b-rad4{
+    border-radius: 999px;
+}
