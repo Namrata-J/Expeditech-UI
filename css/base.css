@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Monoton&family=Nunito:wght@200&family=Rubik&family=Sen&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Monoton', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+:root{
+    --primary-color: rgb(241, 237, 225);
+    --secondary-color: rgb(33, 59, 116);
+    --white-color: white;
+    --action: rgb(81, 102, 148);
+    --black: black;
+    --light-gray: rgb(95, 97, 104);
+    --medium-gray: rgb(182, 185, 185);
+    --lightest-gray: rgb(224, 222, 214);
+    --light-green: rgb(94, 205, 50);
+    --light-red: rgb(230, 59, 59);
+}
+
+body{
+    background-color: var(--lightest-gray);
+}
