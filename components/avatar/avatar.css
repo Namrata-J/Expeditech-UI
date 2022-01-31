@@ -1,0 +1,189 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+
+.et_avatars-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0rem;
+}
+
+/* avatar components start here */
+
+/* circular avatar component start here */
+.avatars-container {
+    background-color: var(--white-color);
+    border: 1px solid var(--light-gray);
+    height: fit-content;
+    width: 90%;
+    margin: 2rem 0rem;
+}
+
+.avatars-container h3 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.avatars {
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.et_circular-avatar {
+    margin: 0.3rem 1rem;
+}
+
+.xs-avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.s-avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.m-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.l-avatar {
+    width: 60px;
+    height: 60px;
+}
+
+/* circular avatar component ends here */
+
+/* rounded avatar component starts here */
+.et_rounded-avatar {
+    margin: 0.3rem 1rem;
+}
+
+/* rounded avatar component ends here */
+
+/* Circular avatars with top notification starts here */
+.et_circular-wtn-avatars-container {
+    height: fit-content;
+}
+
+.circular-wn {
+    display: flex;
+    justify-content: center;
+}
+
+.et_circular-wtn-avatars {
+    position: relative;
+}
+
+.et_notifi-avatar-n {
+    box-shadow: 0px 0px 1px 2px var(--white-color);
+    height: 10px;
+    position: absolute;
+    right: 16px;
+    top: 2px;
+    width: 10px;
+}
+
+.et_notifi-avatar-n.red {
+    background-color: var(--light-red);
+}
+
+.et_notifi-avatar-n.green {
+    background-color: var(--light-green);
+}
+
+.et_notifi-avatar-n.gray {
+    background-color: var(--medium-gray);
+}
+
+.s-avatar-tn {
+    top: 4px;
+    right: 18px;
+}
+
+.m-avatar-tn {
+    top: 6px;
+    right: 20px;
+}
+
+.l-avatar-tn {
+    top: 8px;
+    right: 22px;
+}
+
+/* Circular avatars with top notification ends here */
+
+/* Circular avatars with bottom notification starts here */
+.et_circular-wbn-avatars-container {
+    height: fit-content;
+}
+
+.et_circular-wbn-avatars {
+    position: relative;
+}
+
+.xs-avatar-bn {
+    top: 23px;
+}
+
+.s-avatar-bn {
+    top: 30px;
+}
+
+.m-avatar-bn {
+    top: 40px;
+}
+
+.l-avatar-bn {
+    top: 50px;
+    right: 20px;
+}
+
+/* Circular avatars with bottom notification ends here */
+
+/* Rounded avatars with top notification starts here */
+.et_rounded-wtn-avatars-container {
+    height: fit-content;
+}
+
+.rounded-wn {
+    display: flex;
+    justify-content: center;
+}
+
+.et_rounded-wtn-avatars {
+    position: relative;
+}
+
+/* Rounded avatars with top notification ends here */
+
+/* Rounded avatars with bottom notification starts here */
+.et_rounded-wbn-avatars-container {
+    height: fit-content;
+}
+
+.et_rounded-wbn-avatars {
+    position: relative;
+}
+
+.xs-r-avatar-bn {
+    top: 25px;
+}
+
+.s-r-avatar-bn {
+    top: 35px;
+}
+
+.m-r-avatar-bn {
+    top: 45px;
+}
+
+.l-r-avatar-bn {
+    top: 55px;
+}
+
+/* Rounded avatars with bottom notification ends here */
+
+/* avatar components ends here */
