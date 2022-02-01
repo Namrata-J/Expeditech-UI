@@ -8,4 +8,4 @@ toogleBtn.forEach(eachBtn =>{
             e.target.nextElementSibling.style.display = "inline-block";
         }
     })
-})
+});
