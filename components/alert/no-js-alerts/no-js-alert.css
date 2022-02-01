@@ -1,0 +1,68 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+
+.et_no-js-alerts-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0rem;
+}
+
+/* no-js-simple alerts start here */
+.simple-alerts-container {
+    align-items: center;
+    background-color: var(--white-color);
+    border: 1px solid var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 2rem 0rem;
+    padding: 0rem 0rem 2rem 0rem;
+    width: 90%;
+}
+
+.simple-alerts-container h3 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.alert{
+    border: 1px solid var(--light-gray);
+    color: var(--light-gray);
+    margin: 1rem 0rem;
+    padding: 1rem;
+    width: 80%;
+}
+
+.et_simple-primary-alert{
+    background-color: var(--primary-color);
+}
+
+.et_simple-secondary-alert{
+    background-color: var(--lightest-blue);
+}
+
+.et_simple-success-alert{
+    background-color: var(--lightest-green);
+}
+
+.et_simple-danger-alert{
+    background-color: var(--lightest-red);
+}
+.et_simple-warning-alert{
+    background-color: var(--lightest-yellow);
+}
+.et_simple-info-alert{
+    background-color: var(--lightest-turquiose);
+}
+/* no-js-simple alerts end here */
+.wl a{
+    color: var(--light-gray);
+    text-decoration: none;
+}
+.wl a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* no-js-simple alerts with link start here */
