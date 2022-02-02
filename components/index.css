@@ -1,5 +1,8 @@
+/* common css file for all components */
+
 @import url(/components/avatar/avatar.css);
 @import url(/components/alert/no-js-alerts/no-js-alert.css);
 @import url(/components/alert/js-alerts/js-alerts.css);
 @import url(/components/badge/badge.css);
 @import url(/components/button/button.css);
+
