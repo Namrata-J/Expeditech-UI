@@ -209,7 +209,7 @@
 /* floating actions buttons type1 start here */
 .et_fa-btn-type1 {
     background-color: var(--primary-color);
-    box-shadow: 0px 0px 2px 1px var(--black);
+    box-shadow: 0px 0px 10px 1px var(--black);
     height: 40px;
     position: relative;
     width: 40px;
@@ -275,7 +275,7 @@
 .et_fa-btn-type2 span {
     align-items: center;
     background-color: var(--primary-color);
-    box-shadow: 0px 0px 2px 1px var(--black);
+    box-shadow: 0px 0px 10px 1px var(--black);
     display: flex;
     justify-content: center;
     transition: 0.3s;
