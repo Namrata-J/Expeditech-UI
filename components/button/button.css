@@ -1,0 +1,319 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+
+/* buttons start here */
+
+.et_btns-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0rem;
+}
+
+.et_btns-container h3 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* primary buttons start here */
+.btns-container {
+    align-items: center;
+    background-color: var(--white-color);
+    border: 1px solid var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 2rem 0rem;
+    padding: 0rem 0rem 2rem 0rem;
+    width: 90%;
+}
+
+/* primary-solid buttons start here */
+.btn {
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.et_ps-btn:hover {
+    border: 1px solid var(--black);
+}
+
+.primary-color {
+    background-color: var(--primary-color);
+}
+
+.action-color {
+    background-color: var(--action);
+}
+
+.red-color {
+    background-color: var(--light-red);
+}
+
+.green-color {
+    background-color: var(--light-green);
+}
+
+.blue-color {
+    background-color: var(--turquoise);
+}
+
+/* primary-solid buttons end here */
+
+/* primary-simple buttons start here */
+.et_p-simple-btn:hover {
+    opacity: 0.8;
+}
+
+/* primary-simple buttons end here */
+
+/* primary-outlined buttons start here */
+.et_po-btn {
+    border: 1px solid var(--black);
+}
+
+.et_po-btn:hover {
+    opacity: 0.8;
+}
+
+/* primary-outlined buttons end here */
+/* primary buttons end here */
+
+/* secondary buttons start here */
+/* secondary-solid buttons start here */
+.et_ss-btn:hover {
+    background-color: var(--white-color);
+}
+
+.et_ss-btn.primary-color:hover {
+    border: 1px solid var(--black);
+}
+
+.et_ss-btn.action-color:hover {
+    border: 1px solid var(--action);
+    color: var(--action);
+}
+
+.et_ss-btn.red-color:hover {
+    border: 1px solid var(--light-red);
+    color: var(--light-red);
+}
+
+.et_ss-btn.green-color:hover {
+    border: 1px solid var(--light-green);
+    color: var(--light-green);
+}
+
+.et_ss-btn.blue-color:hover {
+    border: 1px solid var(--turquoise);
+    color: var(--turquoise);
+}
+
+/* secondary-solid buttons end here */
+
+/* secondary-outlined buttons start here */
+.et_so-btn {
+    background-color: var(--white-color);
+}
+
+.et_so-btn.primary-color {
+    border: 1px solid var(--black);
+}
+
+.et_so-btn.action-color {
+    border: 1px solid var(--action);
+    color: var(--action);
+}
+
+.et_so-btn.red-color {
+    border: 1px solid var(--light-red);
+    color: var(--light-red);
+}
+
+.et_so-btn.green-color {
+    border: 1px solid var(--light-green);
+    color: var(--light-green);
+}
+
+.et_so-btn.blue-color {
+    border: 1px solid var(--turquoise);
+    color: var(--turquoise);
+}
+
+.et_so-btn:hover {
+    border: none;
+    color: var(--black);
+}
+
+.et_so-btn.primary-color:hover {
+    background-color: var(--primary-color);
+}
+
+.et_so-btn.action-color:hover {
+    background-color: var(--action);
+}
+
+.et_so-btn.red-color:hover {
+    background-color: var(--light-red);
+}
+
+.et_so-btn.green-color:hover {
+    background-color: var(--light-green);
+}
+
+.et_so-btn.blue-color:hover {
+    background-color: var(--turquoise);
+}
+
+/* secondary-outlined buttons end here */
+/* secondary buttons end here */
+
+/* link buttons start here */
+.et_link-btn {
+    border: 1px solid var(--black);
+}
+
+.et_link-btn:hover {
+    box-shadow: 0px 0px 2px 1px var(--black);
+}
+
+/* link buttons end here */
+
+/* icon buttons start here */
+/* simple-icons buttons start here */
+.et_icon-btn {
+    padding: 0.8rem 1rem;
+}
+
+.et_icon-btn:hover {
+    background-color: var(--action);
+}
+
+/* simple-icons buttons end here  */
+
+/* icon buttons end here */
+
+/* floating action buttons start here */
+.et_fa-btn-types-container {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+/* floating actions buttons type1 start here */
+.et_fa-btn-type1 {
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 2px 1px var(--black);
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+.et_fa-btn-type1:hover{
+    background-color: var(--action);
+}
+.et_fa-btn-type1 span {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: 0.2s;
+    width: 100%;
+}
+
+.et_fa-btn-type1 span:hover {
+    cursor: pointer;
+}
+
+.et_fa-btn-type1 ul {
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 2px 1px var(--black);
+    left: 20px;
+    list-style: none;
+    min-width: 200px;
+    padding: 0.5rem;
+    position: absolute;
+    top: 45px;
+    transition: 0.2s ease-in-out;
+    visibility: hidden;
+}
+
+.et_fa-btn-type1 li {
+    border-bottom: 1px solid var(--lightest-gray);
+    padding: 0.5rem 1rem;
+}
+
+.et_fa-btn-type1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.fa-btn-pop-up-list i {
+    font-size: larger;
+    padding-right: 0.5rem;
+}
+
+.et_fa-btn-type1 li:hover {
+    cursor: pointer;
+    color: var(--action);
+}
+
+/* floating actions buttons type1 end here */
+
+/* floating actions buttons type2 start here */
+.et_fa-btn-type2 {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.et_fa-btn-type2 span {
+    align-items: center;
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 2px 1px var(--black);
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.et_fa-btn-type2 span:hover {
+    cursor: pointer;
+    transform: rotate(135deg);
+}
+
+.pop-up-btns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 40px;
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+}
+
+.pop-up-btns a {
+    background-color: var(--action);
+    border-radius: 50%;
+    color: var(--white-color);
+    padding: 0.7rem 0.1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pop-up-btns a:hover {
+    color: var(--black);
+}
+
+/* floating actions buttons type2 end here */
+
+/* floating action buttons end here */
+
+/* buttons end here */
