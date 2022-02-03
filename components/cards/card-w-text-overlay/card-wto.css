@@ -1,0 +1,100 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+@import url(/components/button/button.css);
+
+/* horizontal card with text overlay start here */
+.et_card-wto-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.et_card-wto-container>* {
+    margin: 2rem 1rem;
+}
+
+/* vertical card with text overlay start here */
+.card-wto {
+    background-image: url(https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    background-position-x: center;
+    box-shadow: 0px 0px 3px 2px var(--black);
+    color: var(--white-color);
+    height: 22rem;
+    max-width: 17rem;
+}
+
+.card-wto-innercontainer {
+    background: rgba(17, 17, 17, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 1rem;
+}
+
+.card-wto-innercontainer>* {
+    padding: 0.5rem 0rem;
+}
+
+.card-wto-innercontainer h3 {
+    border-bottom: 1px solid var(--light-red);
+}
+
+.card-wto-innercontainer p {
+    color: var(--lightest-gray);
+    font-size: small;
+    line-height: 1rem;
+    padding: 1rem 0rem;
+    word-spacing: 0.2em;
+}
+
+.card-wto-innercontainer button {
+    padding: 0.5rem 1rem;
+    width: fit-content;
+}
+
+/* vertical card with text overlay end here */
+
+.et_horizontal-card-wto {
+    max-width: 24rem;
+    height: 14rem;
+}
+.et_vertical-shopping-card-wto-innercontainer h3{
+    border-bottom: none;
+}
+/* horizontal card with text overlay end here */
+
+/* vertical shopping card with text overlay start here */
+.et_vertical-shopping-card-wto {
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 3px 1px var(--black);
+    height: 22rem;
+    width: 17rem;
+}
+.et_vertical-shopping-card-wto-innercontainer1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2iRoZRPaj4QPVE3jS2OfMNYRzlaLwZqXfrA&usqp=CAU);
+    background-size: cover;
+    height: 80%;
+    position: relative;
+}
+.et_shopping-card-wto-innercontainer1-subcontainer{
+    bottom: 10px;
+    left: 20px;
+    position: absolute;
+}
+.et_product-original-price{
+    text-decoration: line-through;
+}
+.et_product-discount{
+    color: var(--light-red);
+}
+.et_vertical-shopping-card-wto-innercontainer2{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+.et_vertical-shopping-card-wto-innercontainer2>*{
+align-self: center;
+/* vertical shopping card with text overlay end here */
