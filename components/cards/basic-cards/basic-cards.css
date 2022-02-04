@@ -18,7 +18,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 31.25rem;
 }
 
 .et_b-main>* {
@@ -30,8 +30,8 @@ body {
     background-color: rgb(235, 245, 245);
     border-radius: 0.7rem 0.7rem 0.3rem 0.2rem;
     box-shadow:  15px 15px 20px 3px rgb(27, 27, 27);
-    height: 300px;
-    width: 280px;
+    height: 18.75rem;
+    width: 17.5rem;
 }
 
 /* styling on all direct childs of .ed_card-container */
@@ -128,7 +128,7 @@ button:hover {
 
 /* basic w/ text over media component2 starts */
 .et_basic-wtom-card-container {
-    height: 240px;
+    height: 15rem;
     position: relative;
 }
 
@@ -181,7 +181,7 @@ button:hover {
 
 /* basic w/ horizontal image and text component6 starts */
 .et_basic-whiat-card-container{
-    height: 120px;
+    height: 7.5rem;
     position: relative;
 }
 .et_basic-whiat-subcontainer1{
