@@ -1,0 +1,38 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+
+/* reponsive images start here */
+.et_ri-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.et_ri-container>*{
+    background-color: var(--white-color);
+    border: 1px solid var(--light-gray);
+    margin: 2rem;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+/* simple responsive image start here */
+.et_simple-ri{
+    width: 80%;
+}
+.et_simple-ri img{
+    vertical-align:bottom;
+    max-width: 60%;
+}
+/* simple responsive image end here */
+/* rounded responsive image start here */
+.et_rounded-ri{
+    padding: 1rem;
+}
+.et_rounded-ri img{
+    clip-path: circle();
+    min-width: 50px;
+    max-width: 50%;
+    object-fit: cover;
+}
+/* rounded responsive image end here */
+/* reponsive images end here */
