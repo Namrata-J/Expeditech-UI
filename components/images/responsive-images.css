@@ -30,7 +30,7 @@
 }
 .et_rounded-ri img{
     clip-path: circle();
-    min-width: 50px;
+    min-width: 3.125rem;
     max-width: 50%;
     object-fit: cover;
 }
