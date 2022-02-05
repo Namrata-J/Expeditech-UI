@@ -3,8 +3,8 @@
 .et_landing-page-header {
     background-color: var(--primary-color);
     box-shadow: 0px 0px 10px 2px var(--black);
-    height: 6rem;
-    padding: 1rem 6rem;
+    height: 5rem;
+    padding: 0.5rem 3rem;
 }
 
 .et_landing-page-header-inner-container {
@@ -23,7 +23,7 @@
 .et_inner-container-child2 .fab {
     color: var(--action);
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /* header ends */
@@ -51,13 +51,12 @@
 }
 
 .et_get-started{
-    margin: 3rem 2rem;
+    margin: 3rem 1.5rem;
 }
 
 .et_get-started a{
     color: var(--action);
     border: 2px solid var(--action);
-    /* border-radius: 0.5rem; */
     padding: 1rem 1.5rem;
     text-decoration: none;
 }
@@ -76,7 +75,7 @@
 
 @media only screen and (max-width:1026px){
     .et_landing-page-header-inner-container{
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -89,36 +88,49 @@
     }
 }
 
-@media only screen and (max-width: 742px){
+@media only screen and (max-width: 510px){
     .et_landing-page-header{
-       padding: 1rem 3rem; 
-    }
-}
-
-@media only screen and (max-width: 540px){
-    .et_landing-page-header{
-       padding: 1rem 0.1rem; 
+        height: 4.5rem;
+        padding: 0.3rem 1rem;
     }
     .et_landing-page-inner-container1{
         width: 90%;
     }
 }
 
-@media only screen and (max-width: 450px){
-    .et_inner-container-child1 img{
-        width: 130px;
-        height: 60px;
+@media only screen and (max-width: 425px){
+    .et_get-started{
+        margin: 2rem 1rem;
     }
-    .et_landing-page-header {
-        height: 5rem;
-    }
-    .et_inner-container-child2 .fab{
-        font-size: 1.8rem;
+    .et_get-started a{
+        padding: 0.7rem 1.2rem;
     }
 }
 
-@media only screen and (max-width: 362px){
-    .et_inner-container-child2{
+@media only screen and (max-width: 415px){
+    .et_inner-container-child2 {
+        gap: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .et_landing-page-header{
+        height: 4.3rem;
+        padding: 0.1rem;
+    }
+    .et_inner-container-child2 {
         gap: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .et_landing-page-header{
+        height: 4rem;
+    }
+    .et_logo{
+        width: 120px;
+    }
+    .et_inner-container-child2 .fab {
+        font-size: 1.5rem;
     }
 }
