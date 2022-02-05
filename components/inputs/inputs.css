@@ -1,0 +1,78 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+
+/* input component start here */
+.et_input-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.et_input-container h3 {
+    color: var(--secondary-color);
+    font-size: large;
+}
+
+.et_input-container input {
+    padding: 0.3rem 0.7rem;
+}
+
+.et_input-container>* {
+    align-items: center;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 90%;
+}
+
+.et_input-container label {
+    display: block;
+    margin: 0.5rem 0rem;
+}
+
+/* default inputs start here */
+.et_input-container input {
+    border: 1px solid var(--lightest-gray);
+}
+
+.et_input-container input:focus {
+    border: 1px solid var(--action);
+    outline: none;
+    transition: 2s all;
+}
+
+/* default inputs end here */
+/* default input with icons start here */
+.et_default-input-wi-container label {
+    margin: 0.5rem 0rem;
+}
+
+.et_default-input-wi-container input {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 1.7rem;
+}
+
+#et_default-text-input-wi {
+    background-image: url(https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/344/external-search-logistic-delivery-kiranshastry-lineal-color-kiranshastry.png);
+
+}
+
+#et_default-password-input-wi {
+    background-image: url(https://img.icons8.com/cotton/344/key-security.png);
+}
+
+/* default input with icons end here */
+/* default input with validation and error start here */
+input:required:focus:valid {
+    border: 1px solid var(--light-green);
+}
+
+input:required:focus:invalid {
+    border: 1px solid var(--light-red);
+}
+
+/* default input with validation and error end here */
+/* input component end here */
