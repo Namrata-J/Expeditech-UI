@@ -135,6 +135,7 @@ a.active {
 /* the-main-section ends here */
 /* main-page ends here */
 
+
 @media only screen and (max-width: 900px) {
     .et_main-section-sidebar-container {
         display: none;
@@ -152,6 +153,7 @@ a.active {
         display: inline-block;
     }
 }
+
 @media only screen and (max-width: 500px){
     .et_main-section-content {
         padding: 4rem 0.8rem;
