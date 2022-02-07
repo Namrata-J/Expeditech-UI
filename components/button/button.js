@@ -1,6 +1,6 @@
 var floatingBtn = document.querySelector(".fa-btn");    // will work for the docs
 var popUpList = document.querySelector(".fa-btn-pop-up-list");
-var floatingBtnOfComponentOne = document.querySelector(".floating-btn");                    // will work for the component
+var floatingBtnOfComponentOne = document.querySelector(".floating-btn");         // will work for the component
 var popUpListOfComponentOne = document.querySelector(".floating-btn-pop-up-list");
 var floatingBtn2 = document.querySelector(".fa-icon-btn");
 var popUpBtns = document.querySelector(".pop-up-btns");
