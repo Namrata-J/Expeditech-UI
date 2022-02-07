@@ -1,11 +1,11 @@
 @import url(/css/base.css);
 @import url(/css/utility.css);
+@import url(/documentation/documentation.css);
 
 .et_avatars-container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 4rem 0rem;
 }
 
 /* avatar components start here */
@@ -15,8 +15,8 @@
     background-color: var(--white-color);
     border: 1px solid var(--light-gray);
     height: fit-content;
-    width: 90%;
-    margin: 2rem 0rem;
+    width: 100%;
+    margin: 1rem 0rem;
 }
 
 .avatars-container h3 {
