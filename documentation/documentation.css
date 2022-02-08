@@ -1,0 +1,162 @@
+@import url(/style.css);
+
+/* main-page starts here */
+
+/* header starts */
+.main-page-header {
+    position: relative;
+    z-index: 3;
+}
+
+/* header ends */
+/* the-main-section starts here */
+.et_main-section-container {
+    display: grid;
+    grid-template-columns: 12rem 85%;
+}
+
+/* main-section sidebar starts here */
+.et_main-section-sidebar-container {
+    background-color: var(--lightest-gray);
+    border-right: 1px solid var(--light-gray);
+    color: var(--light-gray);
+    margin: 1rem 0;
+    padding: 2rem 1rem;
+    width: 12rem;
+}
+
+.et_main-section-sidebar-container h3,
+h4 {
+    color: var(--black);
+}
+
+.et_sidebar-link-section-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.et_sidebar-link-section-nav a {
+    color: var(--action);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--action);
+    font-weight: bold;
+}
+
+.et_nav-item-sublist {
+    padding-left: 1rem;
+    list-style: none;
+}
+
+span.active {
+    color: var(--action);
+    font-weight: bold;
+}
+
+a.active {
+    color: var(--action);
+    font-weight: bold;
+}
+
+/* main-section sidebar ends here */
+/* main-section floating button starts here */
+.fa-links-btn {
+    box-shadow: 0px 0px 2px 1px var(--black);
+    display: none;
+    margin: 1rem;
+    position: absolute;
+}
+
+.fa-links-btn h3,
+.fa-links-btn h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.fa-links-btn li li{
+    text-align: center;
+}
+
+.fa-links-btn ul{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* main-section floating button ends here */
+/* main-section content starts here */
+.et_main-section-content-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.et_main-section-content h3{
+    font-size: 1.7rem;
+}
+
+.et_main-section-content h4{
+    font-size: 1.3rem;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+
+.et_main-section-content{
+    padding: 3rem 0;
+    width: 80%;
+}
+.et_main-section-content p{
+    padding: 0.1rem 0;
+}
+.overview{
+    margin: 1rem 0rem;
+}
+.et_how-to-import{
+    margin-top: 1.5rem;
+}
+.i-frame{
+    margin: 1rem 0;
+    overflow: scroll;
+    text-align: center;
+}
+.span-color-for-varities{
+    color: var(--green);
+}
+.span-color-for-class{
+    color: var(--light-red);
+}
+.span-color-for-property{
+    color: var(--light-green);
+}
+/* main-section content ends here */
+/* the-main-section ends here */
+/* main-page ends here */
+
+
+@media only screen and (max-width: 900px) {
+    .et_main-section-sidebar-container {
+        display: none;
+    }
+
+    .et_main-section-container {
+        grid-template-columns: 100%;
+    }
+
+    .et_main-section-content {
+        padding: 4rem 1rem;
+        width: 90%;
+    }
+    .fa-links-btn {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .et_main-section-content {
+        padding: 4rem 0.8rem;
+        width: 100%;
+    }
+}
