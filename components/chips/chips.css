@@ -1,0 +1,153 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+@import url(/documentation/documentation.css);
+
+.et_chips-container {
+    margin: 1rem 0rem;
+}
+
+.et_chips-container h3 {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.chip-container {
+    background-color: var(--white-color);
+    border: 1px solid var(--medium-gray);
+    padding: 1rem 0.5rem;
+}
+
+/* automated chips starts */
+
+.et_automated-chip-inner-container {
+    background-color: var(--light-bluish-shade);
+    border-bottom: 1px solid var(--dark-gray);
+    color: var(--dark-gray);
+    margin: 1rem 0.5rem;
+    min-height: 4rem;
+    padding: 1rem;
+    position: relative;
+    font-size: large;
+}
+
+.et_automated-chip-inner-container:hover {
+    border-bottom: 2px solid var(--black);
+}
+
+.et_automated-chips-input {
+    background-color: var(--light-bluish-shade);
+    border: none;
+    display: none;
+    font-size: small;
+    outline: none;
+}
+
+.et_automated-chip-inner-container-subsection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.et_automated-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.et_automated-chips-appended-child {
+    background-color: var(--action);
+    color: var(--black);
+    font-size: small;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+}
+
+.et_automated-chips-appended-child:hover {
+    background-color: var(--white-color);
+    color: var(--action);
+    border: 1px solid var(--action);
+}
+
+.et_automated_chips-appended-child-button {
+    color: var(--black);
+    padding: 0rem 0.1rem;
+    margin-left: 0.7rem;
+}
+
+.et_automated_chips-appended-child-button:hover {
+    color: var(--dark-gray);
+    font-weight: bold;
+}
+
+/* automated chips ends */
+
+/* chips drag and drop starts */
+.inner-container {
+    margin: 1rem 0rem;
+}
+
+.chip {
+    border-radius: 2rem;
+    cursor: pointer;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 0.8rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.et_d-and-d-chip-inner-container span {
+    background-color: var(--light-bluish-shade);
+}
+
+.et_d-and-d-chip-inner-container span:hover {
+    background-color: var(--lightest-gray);
+}
+
+.et_d-and-d-chip.dragging {
+    opacity: 0.4;
+}
+
+/* chips drag and drop ends */
+
+/* basic chip starts */
+.et_basic-chip{
+    font-size: 0.9rem;
+}
+.one {
+    background-color: var(--light-bluish-shade);
+}
+
+.two {
+    background-color: var(--green);
+}
+
+.three {
+    background-color: var(--turquoise);
+}
+
+.four {
+    background-color: var(--light-red);
+}
+
+.et_basic-chip:hover {
+    opacity: 0.8;
+}
+
+/* basic chip ends */
+
+/* stacked chip starts */
+.et_stacked-chip-inner-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    gap: 1rem;
+    width: 8rem;
+}
+.et_stacked-chip:hover{
+    opacity: 0.8;
+}
+/* stacked chip ends */
