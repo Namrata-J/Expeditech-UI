@@ -9,73 +9,392 @@
     <link rel="shortcut icon" type="image/svg" href="/Images/Expeditech-favicon.jpeg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <title>Expeditech UI</title>
+    <title>Inputs | Expeditech UI</title>
 </head>
 
 <body>
-    <!-- input component start here -->
-    <div class="et_input-container">
 
-        <!-- default inputs start here -->
-        <div class="et_default-input-container m-2">
-            <h3>Default Inputs</h3>
+    <!-- main-page starts here -->
+    <div class="et_main-page">
+        <!-- header starts -->
+        <header class="et_landing-page-header main-page-header">
+            <div class="et_landing-page-header-inner-container">
+                <!-- header-inner-container child1 starts -->
+                <div class="et_inner-container-child1"><img src="/Images/Expeditech UI-logos.jpeg" alt="Expeditech UI"
+                        width="130" class="et_logo" /></div>
+                <!-- header-inner-container child1 ends -->
 
-            <div>
-                <label for="et_default-text-input" class="et_default-label">Label:</label>
-                <input type="text" id="et_default-text-input" class="et_default-input" placeholder="Type...">
+                <!-- header-inner-container child2 starts -->
+                <div class="et_inner-container-child2">
+                    <div><a href="https://twitter.com/muse_the_coder"><i class="fab fa-twitter"></i></a></div>
+                    <div><a href="https://www.linkedin.com/in/namrata-jain-2b6203216/"><i
+                                class="fab fa-linkedin"></i></a></div>
+                    <div><a href="https://github.com/Namrata-J/Expeditech-UI"><i class="fab fa-github"></i></a></div>
+                </div>
+                <!-- header-inner-container child2 ends -->
             </div>
-            <div>
-                <label for="et_default-password-input" class="et_default-label">Label:</label>
-                <input type="password" id="et_default-password-input" class="et_default-input"
-                    placeholder="Passcode...">
+        </header>
+        <!-- header ends -->
+
+
+        <!-- the-main-section starts here -->
+        <div class="et_main-section-container">
+
+            <!-- main-section sidebar starts here -->
+            <div class="et_main-section-sidebar-container">
+                <div class="et_main-section-sidebar">
+                    <div class="et_sidebar-title-section">
+                        <h3 class="et_sidebar-title fw-1 t-3">Get started</h3>
+                    </div>
+                    <div class="et_sidebar-link-section">
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
+                        <nav class="et_sidebar-link-section-nav">
+                            <a class="link" href="/documentation/documentation.html">
+                                <span class="et_sidebar-nav-item t-4">Introduction</span>
+                            </a>
+                            <a class="link" href="/documentation/installation.html">
+                                <span class="et_sidebar-nav-item t-4">Installation</span>
+                            </a>
+                            <a class="link" href="/documentation/features.html">
+                                <span class="et_sidebar-nav-item t-4">Features</span>
+                            </a>
+                        </nav>
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
+                        <nav class="et_sidebar-link-section-nav">
+                            <a class="link" href="/components/alert/alert.html">
+                                <span class="et_sidebar-nav-item t-4">Alerts</span>
+                                <ul class="et_nav-item-sublist t-4">
+                                    <li><a class="link" href="/components/alert/js-alerts/js-alerts.html">js-alerts</a>
+                                    </li>
+                                    <li><a class="link"
+                                            href="/components/alert/no-js-alerts/no-js-alert.html">no-js-alerts</a></li>
+                                </ul>
+                            </a>
+                            <a class="link" href="/components/avatar/avatar.html">
+                                <span class="et_sidebar-nav-item t-4">Avatar</span>
+                            </a>
+                            <a class="link" href="/components/badge/badge.html">
+                                <span class="et_sidebar-nav-item t-4">Badge</span>
+                            </a>
+                            <a class="link" href="/components/button/button.html">
+                                <span class="et_sidebar-nav-item t-4">Button</span>
+                            </a>
+                            <a class="link" href="/components/cards/cards.html">
+                                <span class="et_sidebar-nav-item t-4">Cards</span>
+                                <ul class="et_nav-item-sublist t-4">
+                                    <li><a class="link" href="/components/cards/basic-cards/basic-cards.html">Basic
+                                            cards</a></li>
+                                    <li><a class="link" href="/components/cards/card-w-badge/card-w-badges.html">Badge
+                                            cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/card-w-dismiss/card-w-dismiss.html">Dismissible
+                                            cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/card-w-text-overlay/card-wto.html">Text-overlay
+                                            Cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/text-only-cards/text-only-card.html">Text-only
+                                            Cards</a></li>
+                                </ul>
+                            </a>
+                            <a class="link" href="/components/images/responsive-images.html">
+                                <span class="et_sidebar-nav-item t-4">Image</span>
+                            </a>
+                            <a class="link" href="/components/inputs/inputs.html">
+                                <span class="et_sidebar-nav-item t-4 active">Input</span>
+                            </a>
+                            <a class="link" href="/components/snackbar/snackbar.html">
+                                <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                            </a>
+                            <a class="link" href="/components/chips/chips.html">
+                                <span class="et_sidebar-nav-item t-4">Chip</span>
+                            </a>
+                            <a class="link" href="/components/dialog/dialog.html">
+                                <span class="et_sidebar-nav-item t-4">Dialog</span>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
             </div>
-            <div>
-                <label for="et_default-number-input" class="et_default-label">Label:</label>
-                <input type="text" id="et_default-number-input" class="et_default-input"
-                    placeholder="Enter contact no...">
+            <!-- main-section sidebar ends here -->
+
+            <!-- main-section floating button starts here -->
+            <div class="et_fa-btn-type1 fa-links-btn b-rad4">
+                <span><i class="fas fa-plus fa-btn"></i></span>
+                <ul class="b-rad2 fa-btn-pop-up-list">
+                    <h3 class="et_sidebar-title fw-1 t-3">Get started</h3>
+                    <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
+                    <li>
+                        <a class="link" href="/documentation/documentation.html">
+                            <span class="et_sidebar-nav-item t-4">Introduction</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/documentation/installation.html">
+                            <span class="et_sidebar-nav-item t-4">Installation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/documentation/features.html">
+                            <span class="et_sidebar-nav-item t-4">Features</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/alert.html">
+                            <span class="et_sidebar-nav-item t-4">Alerts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/js-alerts/js-alerts.html">
+                            <span class="et_sidebar-nav-item t-4">js-alerts</span></a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/no-js-alerts/no-js-alert.html">
+                            <span class="et_sidebar-nav-item t-4">no-js-alerts</span></a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/avatar/avatar.html">
+                            <span class="et_sidebar-nav-item t-4">Avatar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/badge/badge.html">
+                            <span class="et_sidebar-nav-item t-4">Badge</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/button/button.html">
+                            <span class="et_sidebar-nav-item t-4">Button</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/cards.html">
+                            <span class="et_sidebar-nav-item t-4">Cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/basic-cards/basic-cards.html">
+                            <span class="et_sidebar-nav-item t-4">Basic cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-badge/card-w-badges.html">
+                            <span class="et_sidebar-nav-item t-4">Badge cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-dismiss/card-w-dismiss.html">
+                            <span class="et_sidebar-nav-item t-4">Dismissible cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-text-overlay/card-wto.html">
+                            <span class="et_sidebar-nav-item t-4">Text-overlay cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/text-only-cards/text-only-card.html">
+                            <span class="et_sidebar-nav-item t-4">Text-only cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/images/responsive-images.html">
+                            <span class="et_sidebar-nav-item t-4">Image</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/inputs/inputs.html">
+                            <span class="et_sidebar-nav-item t-4 active">Input</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/snackbar/snackbar.html">
+                            <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/chips/chips.html">
+                            <span class="et_sidebar-nav-item t-4">Chip</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/dialog/dialog.html">
+                            <span class="et_sidebar-nav-item t-4">Dialog</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
+            <!-- main-section floating button ends here -->
+
+            <!-- main-section content starts here -->
+            <div class="et_main-section-content-container">
+                <div class="et_main-section-content">
+                    <!-- input component start here -->
+
+                    <h3 class="fw-2 t-3">Inputs</h3>
+                    <p class="t-4">Inputs are very important when it comes to interacting with the user, or is also
+                        useful for taking responses from the user.</p>
+
+                    <p class="t-4">
+                        Expeditech UI provides varities of inputs i.e.
+                        <span class="fw-3 span-color-for-varities">default inputs, default input with icons, default
+                            input with validation and error.</span>
+                    </p>
+
+                    <h4 class="fw-2 t-3">Default inputs</h4>
+
+                    <div class="et_input-container">
+                        <!-- default inputs start here -->
+                        <div class="et_default-input-container m-2">
+                            <h3>Default Inputs</h3>
+
+                            <div>
+                                <label for="et_default-text-input" class="et_default-label">Label:</label>
+                                <input type="text" id="et_default-text-input" class="et_default-input"
+                                    placeholder="Type...">
+                            </div>
+                            <div>
+                                <label for="et_default-password-input" class="et_default-label">Label:</label>
+                                <input type="password" id="et_default-password-input" class="et_default-input"
+                                    placeholder="Passcode...">
+                            </div>
+                            <div>
+                                <label for="et_default-number-input" class="et_default-label">Label:</label>
+                                <input type="text" id="et_default-number-input" class="et_default-input"
+                                    placeholder="Enter contact no...">
+                            </div>
+                        </div>
+                        <!-- default input ends here -->
+                    </div>
+
+                    <p class="t-4">Copy & paste the below html template to use the above component in your project.</p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_default-input-container%2520m-2%2522%253E%250A%2520%2520%2520%253Ch3%253EDefault%2520Inputs%253C%252Fh3%253E%250A%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522et_default-text-input%2522%2520class%253D%2522et_default-label%2522%253ELabel%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522et_default-text-input%2522%2520class%253D%2522et_default-input%2522%2520placeholder%253D%2522Type...%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522et_default-password-input%2522%2520class%253D%2522et_default-label%2522%253ELabel%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522et_default-password-input%2522%2520class%253D%2522et_default-input%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Passcode...%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522et_default-number-input%2522%2520class%253D%2522et_default-label%2522%253ELabel%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522et_default-number-input%2522%2520class%253D%2522et_default-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520contact%2520no...%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1024px; height: 508px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Default inputs with icons</h4>
+
+                    <div class="et_input-container">
+                        <!-- default input with icons start here -->
+                        <div class="et_default-input-wi-container m-2">
+                            <h3>Default inputs with icon</h3>
+
+                            <div>
+                                <label for="et_default-text-input-wi" class="et_default-label">Label:</label>
+                                <input type="text" id="et_default-text-input-wi" class="et_default-input"
+                                    placeholder="Type...">
+                            </div>
+                            <div>
+                                <label for="et_default-password-input-wi" class="et_default-label">Label:</label>
+                                <input type="text" id="et_default-password-input-wi" class="et_default-input"
+                                    placeholder="Passcode...">
+                            </div>
+                        </div>
+                        <!-- default input with icons end here -->
+                    </div>
+
+                    <p class="t-4">Copy & paste the below html template to use the above component in your project.</p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_default-input-wi-container%2520m-2%2522%253E%250A%2520%2520%2520%253Ch3%253EDefault%2520inputs%2520with%2520icon%253C%252Fh3%253E%250A%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522et_default-text-input-wi%2522%2520class%253D%2522et_default-label%2522%253ELabel%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522et_default-text-input-wi%2522%2520class%253D%2522et_default-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Type...%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522et_default-password-input-wi%2522%2520class%253D%2522et_default-label%2522%253ELabel%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522et_default-password-input-wi%2522%2520class%253D%2522et_default-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Passcode...%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 871px; height: 434px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Default inputs with validation and error</h4>
+
+                    <div class="et_input-container">
+                        <!-- default input with validation and error start here -->
+                        <div class="et_input-wvae-container m-2">
+                            <h3>Input With Validation And Error</h3>
+
+                            <div>
+                                <label for="et_default-text-input-wvae" class="et_default-label">Label:</label>
+                                <input type="text" id="et_default-text-input-wvae" class="et_default-input"
+                                    placeholder="Type..." required>
+                            </div>
+                            <div>
+                                <label for="et_default-password-input-wvae" class="et_default-label">Label:</label>
+                                <input type="email" id="et_default-password-input-wvae" class="et_default-input"
+                                    placeholder="Email..." required>
+                            </div>
+                            <div>
+                                <label for="et_default-number-input-wvae" class="et_default-label">Label:</label>
+                                <input type="text" id="et_default-number-input-wvae" class="et_default-input"
+                                    placeholder="Enter contact no..." required>
+                            </div>
+                        </div>
+                        <!-- default input with validation and error end here -->
+                    </div>
+
+                    <p class="t-4">Copy & paste the below html template to use the above component in your project.</p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_input-wvae-container%2520m-2%2522%253E%250A%2520%2520%2520%253Ch3%253EInput%2520With%2520Validation%2520And%2520Error%253C%252Fh3%253E%250A%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522et_default-text-input-wvae%2522%2520class%253D%2522et_default-label%2522%253ELabel%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522et_default-text-input-wvae%2522%2520class%253D%2522et_default-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Type...%2522%2520required%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522et_default-password-input-wvae%2522%2520class%253D%2522et_default-label%2522%253ELabel%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520id%253D%2522et_default-password-input-wvae%2522%2520class%253D%2522et_default-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Email...%2522%2520required%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522et_default-number-input-wvae%2522%2520class%253D%2522et_default-label%2522%253ELabel%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522et_default-number-input-wvae%2522%2520class%253D%2522et_default-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520contact%2520no...%2522%2520required%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 887px; height: 527px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">For using the same icons or for importing any other from
+                        font-awesome you need to simply copy & paste the code below in
+                        your head file.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fuse.fontawesome.com%252Freleases%252Fv5.5.0%252Fcss%252Fall.css%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520integrity%253D%2522sha384-B4dIYHKNBt8Bc12p%252BWXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S%252BL3BlXeVIU%2522%2520crossorigin%253D%2522anonymous%2522%253E"
+                            style="width: 1024px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">For making these components work, you need to import the stylesheet.
+                        For doing so, just simply copy & paste the below code in your head tag.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Findex.css%2522%253E"
+                            style="width: 870px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">Also, for enabling the js functionality, you need to import the js
+                        file in your project. For doing so, just simply copy & paste the below code in your body tag of
+                        your html file.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Finputs%252Finputs.js%2522%2520type%253D%2522text%252Fjavascript%2522%253E%253C%252Fscript%253E"
+                            style="width: 1024px; height: 210px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="t-4"><span class="fw-4">PS:</span> Feedbacks are most welcomed! We believe in providing
+                        the user the best experience, taking in account for the user feedbacks! Connect us via social
+                        platforms to stay updated.</p>
+
+                    <!-- input component end here -->
+                </div>
+            </div>
+            <!-- main-section content ends here -->
+
         </div>
-        <!-- default input ends here -->
-
-        <!-- default input with icons start here -->
-        <div class="et_default-input-wi-container m-2">
-            <h3>Default inputs with icon</h3>
-
-            <div>
-                <label for="et_default-text-input-wi" class="et_default-label">Label:</label>
-                <input type="text" id="et_default-text-input-wi" class="et_default-input" placeholder="Type...">
-            </div>
-            <div>
-                <label for="et_default-password-input-wi" class="et_default-label">Label:</label>
-                <input type="text" id="et_default-password-input-wi" class="et_default-input" placeholder="Passcode...">
-            </div>
-        </div>
-        <!-- default input with icons end here -->
-
-        <!-- default input with validation and error start here -->
-        <div class="et_input-wvae-container m-2">
-            <h3>Input With Validation And Error</h3>
-
-            <div>
-                <label for="et_default-text-input-wvae" class="et_default-label">Label:</label>
-                <input type="text" id="et_default-text-input-wvae" class="et_default-input" placeholder="Type..."
-                    required>
-            </div>
-            <div>
-                <label for="et_default-password-input-wvae" class="et_default-label">Label:</label>
-                <input type="email" id="et_default-password-input-wvae" class="et_default-input" placeholder="Email..."
-                    required>
-            </div>
-            <div>
-                <label for="et_default-number-input-wvae" class="et_default-label">Label:</label>
-                <input type="text" id="et_default-number-input-wvae" class="et_default-input"
-                    placeholder="Enter contact no..." required>
-            </div>
-        </div>
-        <!-- default input with validation and error end here -->
-
+        <!-- the-main-section ends here -->
     </div>
-    <!-- input component end here -->
+    <!-- main-page ends here -->
+
+    <script src="/components/button/button.js" type="text/javascript"></script>
     <script src="/components/inputs/inputs.js" type="text/javascript"></script>
 </body>
 
