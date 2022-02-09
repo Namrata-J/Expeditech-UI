@@ -26,6 +26,8 @@
     --lightest-turquiose: rgb(167, 252, 252);
     --green: rgb(102, 141, 31);
     --turquoise: rgb(60, 224, 208);
+    --dark-gray: rgb(50, 50, 53);
+    --light-bluish-shade: rgb(234, 237, 243);
 }
 
 body{

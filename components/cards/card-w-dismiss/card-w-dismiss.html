@@ -9,98 +9,451 @@
     <link rel="shortcut icon" type="image/svg" href="/Images/Expeditech-favicon.jpeg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <title>Expeditech UI</title>
+    <title>Dismissible cards | Cards | Expeditech UI</title>
 </head>
 
 <body>
-    <!-- card with dismiss start here  -->
-    <div class="et_card-wd-container">
 
-        <!-- card with dismiss type1 start here -->
-        <div class="et_card-wd-type1 card-wd-horizontal-template">
-            <div class="et_card-wd-section1">
-                <img class="et_circular-avatar l-avatar b-rad4" src="/Images/avatar.jpeg" alt="circular avatar" />
-                <div>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+    <!-- main-page starts here -->
+    <div class="et_main-page">
+        <!-- header starts -->
+        <header class="et_landing-page-header main-page-header">
+            <div class="et_landing-page-header-inner-container">
+                <!-- header-inner-container child1 starts -->
+                <div class="et_inner-container-child1"><img src="/Images/Expeditech UI-logos.jpeg" alt="Expeditech UI"
+                        width="130" class="et_logo" /></div>
+                <!-- header-inner-container child1 ends -->
+
+                <!-- header-inner-container child2 starts -->
+                <div class="et_inner-container-child2">
+                    <div><a href="https://twitter.com/muse_the_coder"><i class="fab fa-twitter"></i></a></div>
+                    <div><a href="https://www.linkedin.com/in/namrata-jain-2b6203216/"><i
+                                class="fab fa-linkedin"></i></a></div>
+                    <div><a href="https://github.com/Namrata-J/Expeditech-UI"><i class="fab fa-github"></i></a></div>
+                </div>
+                <!-- header-inner-container child2 ends -->
+            </div>
+        </header>
+        <!-- header ends -->
+
+
+        <!-- the-main-section starts here -->
+        <div class="et_main-section-container">
+
+            <!-- main-section sidebar starts here -->
+            <div class="et_main-section-sidebar-container">
+                <div class="et_main-section-sidebar">
+                    <div class="et_sidebar-title-section">
+                        <h3 class="et_sidebar-title fw-1 t-3">Get started</h3>
+                    </div>
+                    <div class="et_sidebar-link-section">
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
+                        <nav class="et_sidebar-link-section-nav">
+                            <a class="link" href="/documentation/documentation.html">
+                                <span class="et_sidebar-nav-item t-4">Introduction</span>
+                            </a>
+                            <a class="link" href="/documentation/installation.html">
+                                <span class="et_sidebar-nav-item t-4">Installation</span>
+                            </a>
+                            <a class="link" href="/documentation/features.html">
+                                <span class="et_sidebar-nav-item t-4">Features</span>
+                            </a>
+                        </nav>
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
+                        <nav class="et_sidebar-link-section-nav">
+                            <a class="link" href="/components/alert/alert.html">
+                                <span class="et_sidebar-nav-item t-4">Alerts</span>
+                                <ul class="et_nav-item-sublist t-4">
+                                    <li><a class="link" href="/components/alert/js-alerts/js-alerts.html">js-alerts</a>
+                                    </li>
+                                    <li><a class="link"
+                                            href="/components/alert/no-js-alerts/no-js-alert.html">no-js-alerts</a></li>
+                                </ul>
+                            </a>
+                            <a class="link" href="/components/avatar/avatar.html">
+                                <span class="et_sidebar-nav-item t-4">Avatar</span>
+                            </a>
+                            <a class="link" href="/components/badge/badge.html">
+                                <span class="et_sidebar-nav-item t-4">Badge</span>
+                            </a>
+                            <a class="link" href="/components/button/button.html">
+                                <span class="et_sidebar-nav-item t-4">Button</span>
+                            </a>
+                            <a class="link" href="/components/cards/cards.html">
+                                <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                                <ul class="et_nav-item-sublist t-4">
+                                    <li><a class="link" href="/components/cards/basic-cards/basic-cards.html">Basic
+                                            cards</a></li>
+                                    <li><a class="link" href="/components/cards/card-w-badge/card-w-badges.html">Badge
+                                            cards</a></li>
+                                    <li><a class="link active"
+                                            href="/components/cards/card-w-dismiss/card-w-dismiss.html">Dismissible
+                                            cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/card-w-text-overlay/card-wto.html">Text-overlay
+                                            Cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/text-only-cards/text-only-card.html">Text-only
+                                            Cards</a></li>
+                                </ul>
+                            </a>
+                            <a class="link" href="/components/images/responsive-images.html">
+                                <span class="et_sidebar-nav-item t-4">Image</span>
+                            </a>
+                            <a class="link" href="/components/inputs/inputs.html">
+                                <span class="et_sidebar-nav-item t-4">Input</span>
+                            </a>
+                            <a class="link" href="/components/snackbar/snackbar.html">
+                                <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                            </a>
+                            <a class="link" href="/components/chips/chips.html">
+                                <span class="et_sidebar-nav-item t-4">Chip</span>
+                            </a>
+                            <a class="link" href="/components/dialog/dialog.html">
+                                <span class="et_sidebar-nav-item t-4">Dialog</span>
+                            </a>
+                        </nav>
+                    </div>
                 </div>
             </div>
-            <div class="et_card-wd-section2">
-                <div>
-                    <h3>Title</h3>
-                    <h4 class="fw-1">Subtitle</h4>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. </p>
+            <!-- main-section sidebar ends here -->
+
+            <!-- main-section floating button starts here -->
+            <div class="et_fa-btn-type1 fa-links-btn b-rad4">
+                <span><i class="fas fa-plus fa-btn"></i></span>
+                <ul class="b-rad2 fa-btn-pop-up-list">
+                    <h3 class="et_sidebar-title fw-1 t-3">Get started</h3>
+                    <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
+                    <li>
+                        <a class="link" href="/documentation/documentation.html">
+                            <span class="et_sidebar-nav-item t-4">Introduction</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/documentation/installation.html">
+                            <span class="et_sidebar-nav-item t-4">Installation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/documentation/features.html">
+                            <span class="et_sidebar-nav-item t-4">Features</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/alert.html">
+                            <span class="et_sidebar-nav-item t-4">Alert</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/js-alerts/js-alerts.html">
+                            <span class="et_sidebar-nav-item t-4">js-alerts</span></a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/no-js-alerts/no-js-alert.html">
+                            <span class="et_sidebar-nav-item t-4">no-js-alerts</span></a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/avatar/avatar.html">
+                            <span class="et_sidebar-nav-item t-4">Avatar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/badge/badge.html">
+                            <span class="et_sidebar-nav-item t-4">Badge</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/button/button.html">
+                            <span class="et_sidebar-nav-item t-4">Button</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/cards.html">
+                            <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/basic-cards/basic-cards.html">
+                            <span class="et_sidebar-nav-item t-4">Basic cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-badge/card-w-badges.html">
+                            <span class="et_sidebar-nav-item t-4">Badge cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-dismiss/card-w-dismiss.html">
+                            <span class="et_sidebar-nav-item t-4 active">Dismissible cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-text-overlay/card-wto.html">
+                            <span class="et_sidebar-nav-item t-4">Text-overlay cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/text-only-cards/text-only-card.html">
+                            <span class="et_sidebar-nav-item t-4">Text-only cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/images/responsive-images.html">
+                            <span class="et_sidebar-nav-item t-4">Image</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/inputs/inputs.html">
+                            <span class="et_sidebar-nav-item t-4">Input</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/snackbar/snackbar.html">
+                            <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/chips/chips.html">
+                            <span class="et_sidebar-nav-item t-4">Chip</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/dialog/dialog.html">
+                            <span class="et_sidebar-nav-item t-4">Dialog</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- main-section floating button ends here -->
+
+            <!-- main-section content starts here -->
+            <div class="et_main-section-content-container">
+                <div class="et_main-section-content">
+                    <!-- card with dismiss start here  -->
+
+                    <h3 class="fw-2 t-3">Cards</h3>
+                    <p class="t-4">Cards contain content and actions about a single subject. Cards are surfaces that
+                        display content and actions on a single topic. They are easy to scan for relevant and actionable
+                        information.</p>
+
+                    <h4 class="fw-2 t-3">Dismissible Cards</h4>
+                    <p class="t-4">Expeditech UI provides user with varities of Dismissible cards with vertical and
+                        horizontal templates.</p>
+
+                    <p class="t-4">For first two types(type1 and type2) the html template is same providing both
+                        vertical and horizontal
+                        layouts.</p>
+                    <p class="t-4">And for the other two types(type3 and type4) the html template is same and different
+                        from the previous
+                        ones(type1 and type2) in terms of html template and provides both vertical and horizontal
+                        layouts.</p>
+
+                    <h4 class="fw-2 t-3">Dismissible Card type1</h4>
+
+                    <div class="et_card-wd-container">
+                        <!-- card with dismiss type1 start here -->
+                        <div class="et_card-wd-type1 card-wd-horizontal-template">
+                            <div class="et_card-wd-section1">
+                                <img class="et_circular-avatar l-avatar b-rad4" src="/Images/avatar.jpeg"
+                                    alt="circular avatar" />
+                                <div>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                            <div class="et_card-wd-section2">
+                                <div>
+                                    <h3>Title</h3>
+                                    <h4 class="fw-1">Subtitle</h4>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
+                                        labore et dolore magna aliqua. </p>
+                                </div>
+                            </div>
+                            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
+                        </div>
+                        <!-- card with dismiss type1 end here -->
+                    </div>
+
+                    <p class="t-4">For using above component in your project, copy & paste the below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_card-wd-type1%2520card-wd-horizontal-template%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-section1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522et_circular-avatar%2520l-avatar%2520b-rad4%2522%2520src%253D%2522%252FImages%252Favatar.jpeg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522circular%2520avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-facebook%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-linkedin%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-twitter%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-section2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522fw-1%2522%253ESubtitle%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%2520eiusmod%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520tempor%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-dismiss-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 887px; height: 601px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Dismissible Card type2</h4>
+                    <p class="t-4">This horizontal card component has same html template as of the immediate previous
+                        one.
+                    </p>
+
+                    <div class="et_card-wd-container">
+                        <!-- card with dismiss type2 start here -->
+                        <div class="et_card-dismiss-type2 card-wd-vertical-template">
+                            <div class="et_card-wd-section1">
+                                <img class="et_circular-avatar l-avatar b-rad4" src="/Images/avatar.jpeg"
+                                    alt="circular avatar" />
+                                <div>
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                            <div class="et_card-wd-section2">
+                                <div>
+                                    <h3>Title</h3>
+                                    <h4 class="fw-1">Subtitle</h4>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut
+                                        labore et dolore magna aliqua. </p>
+                                </div>
+                            </div>
+                            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
+                        </div>
+                        <!-- card with dismiss type2 end here -->
+                    </div>
+
+                    <p class="t-4">For using above component in your project, copy & paste the below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_card-dismiss-type2%2520card-wd-vertical-template%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-section1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522et_circular-avatar%2520l-avatar%2520b-rad4%2522%2520src%253D%2522%252FImages%252Favatar.jpeg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522circular%2520avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-facebook%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-linkedin%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fab%2520fa-twitter%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-section2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522fw-1%2522%253ESubtitle%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%2520eiusmod%2520tempor%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-dismiss-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 938px; height: 601px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Dismissible Card type3</h4>
+
+                    <div class="et_card-wd-container">
+                        <!-- card with dismiss type3 start here -->
+                        <div class="et_card-dismiss-type3 card-wd-horizontal-template">
+                            <div class="et_card-wd-type3-section1 card-wd-section1">
+                                <div class="et_type3-section1-subcontainer1 fw-4 t-3">Title</div>
+                            </div>
+                            <div class="et_card-wd-type3-section2 et_card-wd-section2">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="et_card-wd-type3-section3">
+                                <button class="et_ss-btn primary-color btn">Accept</button>
+                                <button class="et_ss-btn action-color btn">Know more</button>
+                            </div>
+                            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
+                        </div>
+                        <!-- card with dismiss type3 end here -->
+                    </div>
+
+                    <p class="t-4">For using above component in your project, copy & paste the below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_card-dismiss-type3%2520card-wd-horizontal-template%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-type3-section1%2520card-wd-section1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_type3-section1-subcontainer1%2520fw-4%2520t-3%2522%253ETitle%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-type3-section2%2520et_card-wd-section2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%2520eiusmod%2520tempor%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-type3-section3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520primary-color%2520btn%2522%253EAccept%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520action-color%2520btn%2522%253EKnow%2520more%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-dismiss-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 904px; height: 434px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Dismissible Card type4</h4>
+                    <p class="t-4">This type has same html template as of the type3.
+                    </p>
+
+                    <div class="et_card-wd-container">
+                        <!-- card with dismiss type4 start here -->
+                        <div class="et_card-dismiss-type4 card-wd-vertical-template">
+                            <div class="et_card-wd-type4-section1 card-wd-section1">
+                                <div class="et_type4-section1-subcontainer1 fw-4 t-3">Title</div>
+                            </div>
+                            <div class="et_card-wd-type4-section2 et_card-wd-section2">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut
+                                    labore et dolore magna aliqua, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="et_card-wd-type4-section3">
+                                <button class="et_ss-btn primary-color btn">Accept</button>
+                                <button class="et_ss-btn action-color btn">Know more</button>
+                            </div>
+                            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
+                        </div>
+                        <!-- card with dismiss type4 end here -->
+                    </div>
+
+                    <p class="t-4">For using above component in your project, copy & paste the below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_card-dismiss-type4%2520card-wd-vertical-template%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-type4-section1%2520card-wd-section1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_type4-section1-subcontainer1%2520fw-4%2520t-3%2522%253ETitle%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-type4-section2%2520et_card-wd-section2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%2520eiusmod%2520tempor%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua%252C%2520sed%2520do%2520eiusmod%2520tempor%2520incididunt%2520ut%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520labore%2520et%2520dolore%2520magna%2520aliqua.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-wd-type4-section3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520primary-color%2520btn%2522%253EAccept%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520action-color%2520btn%2522%253EKnow%2520more%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_card-dismiss-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 938px; height: 452px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">For using the same icons or for importing any other from
+                        font-awesome you need to simply copy & paste the code below in
+                        your head file.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fuse.fontawesome.com%252Freleases%252Fv5.5.0%252Fcss%252Fall.css%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520integrity%253D%2522sha384-B4dIYHKNBt8Bc12p%252BWXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S%252BL3BlXeVIU%2522%2520crossorigin%253D%2522anonymous%2522%253E"
+                            style="width: 1024px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">For making these components work, you need to import the stylesheet.
+                        For doing so, just simply copy & paste the below code in your head tag.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Findex.css%2522%253E"
+                            style="width: 870px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">Also, for enabling the js functionality, you need to import the js
+                        file in your project. For doing so, just simply copy & paste the below code in your body tag of
+                        your html file.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Fcards%252Fcard-w-dismiss%252Fcard-w-dismiss.js%2522%2520type%253D%2522text%252Fjavascript%2522%253E%253C%252Fscript%253E"
+                            style="width: 1024px; height: 210px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="t-4"><span class="fw-4">PS:</span> Feedbacks are most welcomed! We believe in providing
+                        the user the best experience, taking in account for the user feedbacks! Connect us via social
+                        platforms to stay updated.</p>
+
+
+                    <!-- card with dismiss end here -->
                 </div>
             </div>
-            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
+            <!-- main-section content ends here -->
+
         </div>
-        <!-- card with dismiss type1 end here -->
-
-        <!-- card with dismiss type2 start here -->
-        <div class="et_card-dismiss-type2 card-wd-vertical-template">
-            <div class="et_card-wd-section1">
-                <img class="et_circular-avatar l-avatar b-rad4" src="/Images/avatar.jpeg" alt="circular avatar" />
-                <div>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            <div class="et_card-wd-section2">
-                <div>
-                    <h3>Title</h3>
-                    <h4 class="fw-1">Subtitle</h4>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. </p>
-                </div>
-            </div>
-            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
-        </div>
-        <!-- card with dismiss type2 end here -->
-
-        <!-- card with dismiss type3 start here -->
-        <div class="et_card-dismiss-type3 card-wd-horizontal-template">
-            <div class="et_card-wd-type3-section1 card-wd-section1">
-                <div class="et_type3-section1-subcontainer1 fw-4 t-3">Title</div>
-            </div>
-            <div class="et_card-wd-type3-section2 et_card-wd-section2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.</p>
-            </div>
-            <div class="et_card-wd-type3-section3">
-                <button class="et_ss-btn primary-color btn">Accept</button>
-                <button class="et_ss-btn action-color btn">Know more</button>
-            </div>
-            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
-        </div>
-        <!-- card with dismiss type3 end here -->
-
-        <!-- card with dismiss type3 start here -->
-        <div class="et_card-dismiss-type4 card-wd-vertical-template">
-            <div class="et_card-wd-type4-section1 card-wd-section1">
-                <div class="et_type4-section1-subcontainer1 fw-4 t-3">Title</div>
-            </div>
-            <div class="et_card-wd-type4-section2 et_card-wd-section2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua.</p>
-            </div>
-            <div class="et_card-wd-type4-section3">
-                <button class="et_ss-btn primary-color btn">Accept</button>
-                <button class="et_ss-btn action-color btn">Know more</button>
-            </div>
-            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
-        </div>
-        <!-- card with dismiss type3 end here -->
-
+        <!-- the-main-section ends here -->
     </div>
-    <!-- card with dismiss end here -->
+    <!-- main-page ends here -->
+
+    <script src="/components/button/button.js" type="text/javascript"></script>
     <script src="/components/cards/card-w-dismiss/card-w-dismiss.js" type="text/javascript"></script>
 </body>
 

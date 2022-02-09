@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,180 +9,614 @@
     <link rel="shortcut icon" type="image/svg" href="/Images/Expeditech-favicon.jpeg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <title>Expeditech UI</title>
+    <title>Basic cards | Cards | Expeditech UI</title>
 </head>
 
 <body>
-     <!-- card components -->
-     <div class="et_b-main">
-        <!-- basic card component -->
-        <div class="et_b-card-container">
-            <div class="et_b-card-subcontainer1">
-                <img />
-            </div>
-            <div class="et_b-card-subcontainer2">
-                <h4 class="et_b-subcontainer2-heading1">New album out now</h4>
-                <h6 class="et_b-subcontainer2-heading2">By Alan Walker</h6>
-            </div>
-            <div class="et_b-card-subcontainer3">
-                <p class="et_b-subcontainer3-para">Some of his top releases comprises lily, Alone, Darkside, Faded, Sing me
-                    to
-                    sleep, On my way etc.</p>
-            </div>
-            <div class="et_b-card-subcontainer4">
-                <div class="et_b-subcontainer4-action-buttons">
-                    <button class="et_action-buttons">READ</button>
-                    <button class="et_action-buttons">BOOKMARK</button>
-                </div>
-                <div class="et_b-subcontainer4-icon-buttons">
-                    <button class="et_icon-buttons"><i class="far fa-heart"><span>like</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-share-alt"><span>share</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more options</span></i></button>
-                </div>
-            </div>
-        </div>
-        <!-- basic component1 ends -->
 
-        <!-- basic w/ text over media component2 starts -->
-        <div class="et_b-card-container et_basic-wtom-card-container">
-            <div class="et_b-card-subcontainer1 et_basic-wtom-card-subcontainer1">
-                <img />
-            </div>
-            <div class="et_b-card-subcontainer2 et_basic-wtom-card-subcontainer2">
-                <h4 class="et_b-subcontainer2-heading1 et_basic-wtom-subcontainer2-heading1">New album out now</h4>
-                <h6 class="et_b-subcontainer2-heading2 et_basic-wtom-subcontainer2-heading2">By Alan Walker</h6>
-            </div>
-            <div class="et_b-card-subcontainer3 et_basic-wtom-card-subcontainer3">
-                <p class="et_b-subcontainer3-para et_basic-wtom-subcontainer3-para">Some of his top releases comprises lily, Alone, Darkside, Faded,
-                    Sing me to
-                    sleep, On my way etc.</p>
-            </div>
-            <div class="et_b-card-subcontainer4 et_basic-wtom-card-subcontainer4">
-                <div class="et_b-subcontainer4-action-buttons et_basic-wtom-subcontainer4-action-buttons">
-                    <button class="et_action-buttons">READ</button>
-                    <button class="et_action-buttons">BOOKMARK</button>
-                </div>
-                <div class="et_b-subcontainer4-icon-buttons et_basic-wtom-subcontainer4-icon-buttons">
-                    <button class="et_icon-buttons"><i class="far fa-heart"><span>like</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-share-alt"><span>share</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more options</span></i></button>
-                </div>
-            </div>
-        </div>
-        <!-- basic w/ text over media component2 ends -->
+    <!-- main-page starts here -->
+    <div class="et_main-page">
+        <!-- header starts -->
+        <header class="et_landing-page-header main-page-header">
+            <div class="et_landing-page-header-inner-container">
+                <!-- header-inner-container child1 starts -->
+                <div class="et_inner-container-child1"><img src="/Images/Expeditech UI-logos.jpeg" alt="Expeditech UI"
+                        width="130" class="et_logo" /></div>
+                <!-- header-inner-container child1 ends -->
 
-        <!-- basic w/ header component3 starts -->
-        <div class="et_b-card-container et_b-wheader-card-container">
-            <div class="et_b-card-subcontainer1 et_b-wheader-card-subcontainer1">
-                <img />
-            </div>
-            <div class="et_b-card-subcontainer2 et_b-wheader-card-subcontainer2">
-                <h4 class="et_b-subcontainer2-heading1 et_b-wheader-card-subcontainer2-heading1">New album out now</h4>
-                <h6 class="et_b-subcontainer2-heading2 et_b-wheader-card-subcontainer2-heading2">By Alan Walker</h6>
-            </div>
-            <div class="et_b-card-subcontainer3 et_b-wheader-card-subcontainer3">
-                <p class="et_b-subcontainer3-para et_b-wheader-card-subcontainer3-para">Some of his top releases comprises lily, Alone, Darkside, Faded, Sing me
-                    to
-                    sleep, On my way etc.</p>
-            </div>
-            <div class="et_b-card-subcontainer4 et_b-wheader-card-subcontainer4">
-                <div class="et_b-subcontainer4-action-buttons et_b-wheader-card-subcontainer4-action-buttons">
-                    <button class="et_action-buttons">READ</button>
-                    <button class="et_action-buttons">BOOKMARK</button>
+                <!-- header-inner-container child2 starts -->
+                <div class="et_inner-container-child2">
+                    <div><a href="https://twitter.com/muse_the_coder"><i class="fab fa-twitter"></i></a></div>
+                    <div><a href="https://www.linkedin.com/in/namrata-jain-2b6203216/"><i
+                                class="fab fa-linkedin"></i></a></div>
+                    <div><a href="https://github.com/Namrata-J/Expeditech-UI"><i class="fab fa-github"></i></a></div>
                 </div>
-                <div class="et_b-subcontainer4-icon-buttons et_b-wheader-card-subcontainer4-icon-buttons">
-                    <button class="et_icon-buttons"><i class="far fa-heart"><span>like</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-share-alt"><span>share</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more options</span></i></button>
-                </div>
+                <!-- header-inner-container child2 ends -->
             </div>
-        </div>
-        <!-- basic w/ header component3 ends -->
+        </header>
+        <!-- header ends -->
 
-        <!-- basic w/ only action buttons component4 starts -->
-        <div class="et_b-card-container et_basic-woab-card-container">
-            <div class="et_b-card-subcontainer1 et_basic-woab-subcontainer1">
-                <img />
-            </div>
-            <div class="et_b-card-subcontainer2 et_basic-woab-subcontainer2">
-                <h4 class="et_b-subcontainer2-heading1 et_basic-woab-subcontainer2-heading1">New album out now</h4>
-                <h6 class="et_b-subcontainer2-heading2 et_basic-woab-subcontainer2-heading2">By Alan Walker</h6>
-            </div>
-            <div class="et_b-card-subcontainer3 et_basic-woab-subcontainer3">
-                <p class="et_b-subcontainer3-para et_basic-woab-subcontainer3-para">Some of his top releases comprises lily, Alone, Darkside, Faded, Sing me
-                    to
-                    sleep, On my way etc.</p>
-            </div>
-            <div class="et_b-card-subcontainer4 et_basic-woab-subcontainer4">
-                <div class="et_b-subcontainer4-action-buttons et_basic-woab-subcontainer4-action-buttons">
-                    <button class="et_action-buttons">READ</button>
-                    <button class="et_action-buttons">BOOKMARK</button>
-                </div>
-                <div class="et_b-subcontainer4-icon-buttons et_basic-woab-subcontainer4-icon-buttons">
-                    <button class="et_icon-buttons"><i class="far fa-heart"><span>like</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-share-alt"><span>share</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more options</span></i></button>
-                </div>
-            </div>
-        </div>
-        <!-- basic w/ only action buttons component4 ends -->
 
-        <!-- basic w/ only icons component5 starts -->
-        <div class="et_b-card-container et_basic-woi-card-container">
-            <div class="et_b-card-subcontainer1 et_basic-woi-subcontainer1">
-                <img />
-            </div>
-            <div class="et_b-card-subcontainer2 et_basic-woi-subcontainer2">
-                <h4 class="et_b-subcontainer2-heading1 et_basic-woi-subcontainer2-heading1">New album out now</h4>
-                <h6 class="et_b-subcontainer2-heading2 et_basic-woi-subcontainer2-heading2">By Alan Walker</h6>
-            </div>
-            <div class="et_b-card-subcontainer3 et_basic-woi-subcontainer3">
-                <p class="et_b-subcontainer3-para et_basic-woi-subcontainer3-para">Some of his top releases comprises lily, Alone, Darkside, Faded, Sing me
-                    to
-                    sleep, On my way etc.</p>
-            </div>
-            <div class="et_b-card-subcontainer4 et_basic-woi-subcontainer4">
-                <div class="et_b-subcontainer4-action-buttons et_basic-woi-subcontainer4-action-buttons">
-                    <button class="et_action-buttons">READ</button>
-                    <button class="et_action-buttons">BOOKMARK</button>
-                </div>
-                <div class="et_b-subcontainer4-icon-buttons et_basic-woi-subcontainer4-icon-buttons">
-                    <button class="et_icon-buttons"><i class="far fa-heart"><span>like</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-share-alt"><span>share</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more options</span></i></button>
-                </div>
-            </div>
-        </div>
-        <!-- basic w/ only icons component5 ends -->
+        <!-- the-main-section starts here -->
+        <div class="et_main-section-container">
 
-        <!-- basic w/ horizontal image and text component6 starts -->
-        <div class="et_b-card-container et_basic-whiat-card-container">
-            <div class="et_b-card-subcontainer1 et_basic-whiat-subcontainer1">
-                <img />
-            </div>
-            <div class="et_b-card-subcontainer2 et_basic-whiat-subcontainer2">
-                <h4 class="et_b-subcontainer2-heading1 et_basic-whiat-subcontainer2-heading1">New album out now</h4>
-                <h6 class="et_b-subcontainer2-heading2 et_basic-whiat-subcontainer2-heading2">By Alan Walker</h6>
-            </div>
-            <div class="et_b-card-subcontainer3 et_basic-whiat-subcontainer3">
-                <p class="et_b-subcontainer3-para et_basic-whiat-subcontainer3-para">Some of his top releases comprises lily, Alone, Darkside, Faded, Sing me
-                    to
-                    sleep, On my way etc.</p>
-            </div>
-            <div class="et_b-card-subcontainer4 et_basic-whiat-subcontainer4">
-                <div class="et_b-subcontainer4-action-buttons et_basic-whiat-subcontainer4-action-buttons">
-                    <button class="et_action-buttons">READ</button>
-                    <button class="et_action-buttons">BOOKMARK</button>
+            <!-- main-section sidebar starts here -->
+            <div class="et_main-section-sidebar-container">
+                <div class="et_main-section-sidebar">
+                    <div class="et_sidebar-title-section">
+                        <h3 class="et_sidebar-title fw-1 t-3">Get started</h3>
+                    </div>
+                    <div class="et_sidebar-link-section">
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
+                        <nav class="et_sidebar-link-section-nav">
+                            <a class="link" href="/documentation/documentation.html">
+                                <span class="et_sidebar-nav-item t-4">Introduction</span>
+                            </a>
+                            <a class="link" href="/documentation/installation.html">
+                                <span class="et_sidebar-nav-item t-4">Installation</span>
+                            </a>
+                            <a class="link" href="/documentation/features.html">
+                                <span class="et_sidebar-nav-item t-4">Features</span>
+                            </a>
+                        </nav>
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
+                        <nav class="et_sidebar-link-section-nav">
+                            <a class="link" href="/components/alert/alert.html">
+                                <span class="et_sidebar-nav-item t-4">Alerts</span>
+                                <ul class="et_nav-item-sublist t-4">
+                                    <li><a class="link" href="/components/alert/js-alerts/js-alerts.html">js-alerts</a>
+                                    </li>
+                                    <li><a class="link"
+                                            href="/components/alert/no-js-alerts/no-js-alert.html">no-js-alerts</a></li>
+                                </ul>
+                            </a>
+                            <a class="link" href="/components/avatar/avatar.html">
+                                <span class="et_sidebar-nav-item t-4">Avatar</span>
+                            </a>
+                            <a class="link" href="/components/badge/badge.html">
+                                <span class="et_sidebar-nav-item t-4">Badge</span>
+                            </a>
+                            <a class="link" href="/components/button/button.html">
+                                <span class="et_sidebar-nav-item t-4">Button</span>
+                            </a>
+                            <a class="link" href="/components/cards/cards.html">
+                                <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                                <ul class="et_nav-item-sublist t-4">
+                                    <li><a class="link active"
+                                            href="/components/cards/basic-cards/basic-cards.html">Basic
+                                            cards</a></li>
+                                    <li><a class="link" href="/components/cards/card-w-badge/card-w-badges.html">Badge
+                                            cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/card-w-dismiss/card-w-dismiss.html">Dismissible
+                                            cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/card-w-text-overlay/card-wto.html">Text-overlay
+                                            Cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/text-only-cards/text-only-card.html">Text-only
+                                            Cards</a></li>
+                                </ul>
+                            </a>
+                            <a class="link" href="/components/images/responsive-images.html">
+                                <span class="et_sidebar-nav-item t-4">Image</span>
+                            </a>
+                            <a class="link" href="/components/inputs/inputs.html">
+                                <span class="et_sidebar-nav-item t-4">Input</span>
+                            </a>
+                            <a class="link" href="/components/snackbar/snackbar.html">
+                                <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                            </a>
+                            <a class="link" href="/components/chips/chips.html">
+                                <span class="et_sidebar-nav-item t-4">Chip</span>
+                            </a>
+                            <a class="link" href="/components/dialog/dialog.html">
+                                <span class="et_sidebar-nav-item t-4">Dialog</span>
+                            </a>
+                        </nav>
+                    </div>
                 </div>
-                <div class="et_b-subcontainer4-icon-buttons et_basic-whiat-subcontainer4-icon-buttons">
-                    <button class="et_icon-buttons"><i class="far fa-heart"><span>like</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-share-alt"><span>share</span></i></button>
-                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more options</span></i></button>
+            </div>
+            <!-- main-section sidebar ends here -->
+
+            <!-- main-section floating button starts here -->
+            <div class="et_fa-btn-type1 fa-links-btn b-rad4">
+                <span><i class="fas fa-plus fa-btn"></i></span>
+                <ul class="b-rad2 fa-btn-pop-up-list">
+                    <h3 class="et_sidebar-title fw-1 t-3">Get started</h3>
+                    <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
+                    <li>
+                        <a class="link" href="/documentation/documentation.html">
+                            <span class="et_sidebar-nav-item t-4">Introduction</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/documentation/installation.html">
+                            <span class="et_sidebar-nav-item t-4">Installation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/documentation/features.html">
+                            <span class="et_sidebar-nav-item t-4">Features</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/alert.html">
+                            <span class="et_sidebar-nav-item t-4">Alert</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/js-alerts/js-alerts.html">
+                            <span class="et_sidebar-nav-item t-4">js-alerts</span></a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/no-js-alerts/no-js-alert.html">
+                            <span class="et_sidebar-nav-item t-4">no-js-alerts</span></a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/avatar/avatar.html">
+                            <span class="et_sidebar-nav-item t-4">Avatar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/badge/badge.html">
+                            <span class="et_sidebar-nav-item t-4">Badge</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/button/button.html">
+                            <span class="et_sidebar-nav-item t-4">Button</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/cards.html">
+                            <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/basic-cards/basic-cards.html">
+                            <span class="et_sidebar-nav-item t-4 active">Basic cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-badge/card-w-badges.html">
+                            <span class="et_sidebar-nav-item t-4">Badge cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-dismiss/card-w-dismiss.html">
+                            <span class="et_sidebar-nav-item t-4">Dismissible cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-text-overlay/card-wto.html">
+                            <span class="et_sidebar-nav-item t-4">Text-overlay cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/text-only-cards/text-only-card.html">
+                            <span class="et_sidebar-nav-item t-4">Text-only cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/images/responsive-images.html">
+                            <span class="et_sidebar-nav-item t-4">Image</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/inputs/inputs.html">
+                            <span class="et_sidebar-nav-item t-4">Input</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/snackbar/snackbar.html">
+                            <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/chips/chips.html">
+                            <span class="et_sidebar-nav-item t-4">Chip</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/dialog/dialog.html">
+                            <span class="et_sidebar-nav-item t-4">Dialog</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- main-section floating button ends here -->
+
+            <!-- main-section content starts here -->
+            <div class="et_main-section-content-container">
+                <div class="et_main-section-content">
+
+                    <h3 class="fw-2 t-3">Cards</h3>
+                    <p class="t-4">Cards contain content and actions about a single subject. Cards are surfaces that
+                        display content and actions on a single topic. They are easy to scan for relevant and actionable
+                        information.</p>
+
+                    <h4 class="fw-2 t-3">Basic Cards</h4>
+                    <p class="t-4">Expeditech UI provides user with varities of basic cards, i.e. <span
+                            class="fw-3 span-color-for-varities">basic card, basic w/ text over media, basic w/ header,
+                            basic w/ only action buttons, basic w/ only icons, basic w/ horizontal image and
+                            text.</span></p>
+
+                    <p class="t-4">Expeditech UI provides user with same html template for all the basic cards, by just
+                        altering the contextual classes.</p>
+
+                    <p class="t-4">All basic cards template comprises four sections, wherein the first section comprise
+                        image, the
+                        second section comprise heading and subheading, the third section comprises the para, and the
+                        fourth section contains the action buttons and the icon buttons.</p>
+
+                    <p class="t-4"><span class="fw-4">PS:</span> The template for all the basic cards is same, the only
+                        difference is with the styling.</p>
+
+                    <h4 class="fw-2 t-3">Basic Card</h4>
+                    <p class="t-4">Basic card shows the basic template keeping the visibility of all the sections in
+                        order.</p>
+
+                    <!-- card components -->
+                    <div class="et_b-main">
+                        <!-- basic card component -->
+                        <div class="et_b-card-container">
+                            <div class="et_b-card-subcontainer1">
+                                <img />
+                            </div>
+                            <div class="et_b-card-subcontainer2">
+                                <h4 class="et_b-subcontainer2-heading1">New album out now</h4>
+                                <h6 class="et_b-subcontainer2-heading2">By Alan Walker</h6>
+                            </div>
+                            <div class="et_b-card-subcontainer3">
+                                <p class="et_b-subcontainer3-para">Some of his top releases comprises lily, Alone,
+                                    Darkside, Faded, Sing
+                                    me
+                                    to
+                                    sleep, On my way etc.</p>
+                            </div>
+                            <div class="et_b-card-subcontainer4">
+                                <div class="et_b-subcontainer4-action-buttons">
+                                    <button class="et_action-buttons">READ</button>
+                                    <button class="et_action-buttons">BOOKMARK</button>
+                                </div>
+                                <div class="et_b-subcontainer4-icon-buttons">
+                                    <button class="et_icon-buttons"><i
+                                            class="far fa-heart"><span>like</span></i></button>
+                                    <button class="et_icon-buttons"><i
+                                            class="fas fa-share-alt"><span>share</span></i></button>
+                                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more
+                                                options</span></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- basic component1 ends -->
+                    </div>
+
+                    <p class="t-4">For using basic card component in your project, copy & paste the below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_b-card-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522et_b-subcontainer2-heading1%2522%253ENew%2520album%2520out%2520now%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522et_b-subcontainer2-heading2%2522%253EBy%2520Alan%2520Walker%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522et_b-subcontainer3-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Some%2520of%2520his%2520top%2520releases%2520comprises%2520lily%252C%2520Alone%252C%2520Darkside%252C%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Faded%252C%2520Sing%2520me%2520to%2520sleep%252C%2520On%2520my%2520way%2520etc.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-action-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253Cspan%253Elike%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253Eshare%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253Emore%2520options%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1024px; height: 860px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Basic w/ text over media card</h4>
+                    <p class="t-4">It is a text over media card or to say, the section two is overlayed upon section
+                        one. It has the same layout(html template), just with a change of contextual classes.</p>
+
+                    <div class="et_b-main">
+                        <!-- basic w/ text over media component2 starts -->
+                        <div class="et_b-card-container et_basic-wtom-card-container">
+                            <div class="et_b-card-subcontainer1 et_basic-wtom-card-subcontainer1">
+                                <img />
+                            </div>
+                            <div class="et_b-card-subcontainer2 et_basic-wtom-card-subcontainer2">
+                                <h4 class="et_b-subcontainer2-heading1 et_basic-wtom-subcontainer2-heading1">New album
+                                    out now</h4>
+                                <h6 class="et_b-subcontainer2-heading2 et_basic-wtom-subcontainer2-heading2">By Alan
+                                    Walker</h6>
+                            </div>
+                            <div class="et_b-card-subcontainer3 et_basic-wtom-card-subcontainer3">
+                                <p class="et_b-subcontainer3-para et_basic-wtom-subcontainer3-para">Some of his top
+                                    releases comprises
+                                    lily, Alone, Darkside, Faded,
+                                    Sing me to
+                                    sleep, On my way etc.</p>
+                            </div>
+                            <div class="et_b-card-subcontainer4 et_basic-wtom-card-subcontainer4">
+                                <div
+                                    class="et_b-subcontainer4-action-buttons et_basic-wtom-subcontainer4-action-buttons">
+                                    <button class="et_action-buttons">READ</button>
+                                    <button class="et_action-buttons">BOOKMARK</button>
+                                </div>
+                                <div class="et_b-subcontainer4-icon-buttons et_basic-wtom-subcontainer4-icon-buttons">
+                                    <button class="et_icon-buttons"><i
+                                            class="far fa-heart"><span>like</span></i></button>
+                                    <button class="et_icon-buttons"><i
+                                            class="fas fa-share-alt"><span>share</span></i></button>
+                                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more
+                                                options</span></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- basic w/ text over media component2 ends -->
+                    </div>
+
+                    <p class="t-4">For using basic w/ text over media card component in your project, copy & paste the
+                        below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_b-card-container%2520et_basic-wtom-card-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer1%2520et_basic-wtom-card-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer2%2520et_basic-wtom-card-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522et_b-subcontainer2-heading1%2520et_basic-wtom-subcontainer2-heading1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520New%2520album%2520out%2520now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522et_b-subcontainer2-heading2%2520et_basic-wtom-subcontainer2-heading2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520By%2520Alan%2520Walker%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer3%2520et_basic-wtom-card-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522et_b-subcontainer3-para%2520et_basic-wtom-subcontainer3-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Some%2520of%2520his%2520top%2520releases%2520comprises%2520lily%252C%2520Alone%252C%2520Darkside%252C%2520Faded%252C%2520Sing%2520me%2520to%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sleep%252C%2520On%2520my%2520way%2520etc.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer4%2520et_basic-wtom-card-subcontainer4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-action-buttons%2520et_basic-wtom-subcontainer4-action-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-icon-buttons%2520et_basic-wtom-subcontainer4-icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253Cspan%253Elike%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253Cspan%253Eshare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253Cspan%253Emore%2520options%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1014px; height: 860px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Basic w/ header card</h4>
+                    <p class="t-4">In this basic card the order of the sections is changed, section two is placed first
+                        and then comes the section one. All this has been done using the same html template, and a
+                        little bit of change in styling.</p>
+
+                    <div class="et_b-main">
+                        <!-- basic w/ header component3 starts -->
+                        <div class="et_b-card-container et_b-wheader-card-container">
+                            <div class="et_b-card-subcontainer1 et_b-wheader-card-subcontainer1">
+                                <img />
+                            </div>
+                            <div class="et_b-card-subcontainer2 et_b-wheader-card-subcontainer2">
+                                <h4 class="et_b-subcontainer2-heading1 et_b-wheader-card-subcontainer2-heading1">New
+                                    album out now</h4>
+                                <h6 class="et_b-subcontainer2-heading2 et_b-wheader-card-subcontainer2-heading2">By Alan
+                                    Walker</h6>
+                            </div>
+                            <div class="et_b-card-subcontainer3 et_b-wheader-card-subcontainer3">
+                                <p class="et_b-subcontainer3-para et_b-wheader-card-subcontainer3-para">Some of his top
+                                    releases
+                                    comprises lily, Alone, Darkside, Faded, Sing me
+                                    to
+                                    sleep, On my way etc.</p>
+                            </div>
+                            <div class="et_b-card-subcontainer4 et_b-wheader-card-subcontainer4">
+                                <div
+                                    class="et_b-subcontainer4-action-buttons et_b-wheader-card-subcontainer4-action-buttons">
+                                    <button class="et_action-buttons">READ</button>
+                                    <button class="et_action-buttons">BOOKMARK</button>
+                                </div>
+                                <div
+                                    class="et_b-subcontainer4-icon-buttons et_b-wheader-card-subcontainer4-icon-buttons">
+                                    <button class="et_icon-buttons"><i
+                                            class="far fa-heart"><span>like</span></i></button>
+                                    <button class="et_icon-buttons"><i
+                                            class="fas fa-share-alt"><span>share</span></i></button>
+                                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more
+                                                options</span></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- basic w/ header component3 ends -->
+                    </div>
+
+                    <p class="t-4">For using basic w/ header card component in your project, copy & paste the
+                        below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_b-card-container%2520et_b-wheader-card-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer1%2520et_b-wheader-card-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer2%2520et_b-wheader-card-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522et_b-subcontainer2-heading1%2520et_b-wheader-card-subcontainer2-heading1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520New%2520album%2520out%2520now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522et_b-subcontainer2-heading2%2520et_b-wheader-card-subcontainer2-heading2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520By%2520Alan%2520Walker%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer3%2520et_b-wheader-card-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522et_b-subcontainer3-para%2520et_b-wheader-card-subcontainer3-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Some%2520of%2520his%2520top%2520releases%2520comprises%2520lily%252C%2520Alone%252C%2520Darkside%252C%2520Faded%252C%2520Sing%2520me%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520to%2520sleep%252C%2520On%2520my%2520way%2520etc.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer4%2520et_b-wheader-card-subcontainer4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-action-buttons%2520et_b-wheader-card-subcontainer4-action-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-icon-buttons%2520et_b-wheader-card-subcontainer4-icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253Cspan%253Elike%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253Cspan%253Eshare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253Cspan%253Emore%2520options%253C%252Fspan%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1022px; height: 823px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Basic w/ only action buttons card</h4>
+                    <p class="t-4">This card displays only the action buttons in the section four.</p>
+
+                    <div class="et_b-main">
+                        <!-- basic w/ only action buttons component4 starts -->
+                        <div class="et_b-card-container et_basic-woab-card-container">
+                            <div class="et_b-card-subcontainer1 et_basic-woab-subcontainer1">
+                                <img />
+                            </div>
+                            <div class="et_b-card-subcontainer2 et_basic-woab-subcontainer2">
+                                <h4 class="et_b-subcontainer2-heading1 et_basic-woab-subcontainer2-heading1">New album
+                                    out now</h4>
+                                <h6 class="et_b-subcontainer2-heading2 et_basic-woab-subcontainer2-heading2">By Alan
+                                    Walker</h6>
+                            </div>
+                            <div class="et_b-card-subcontainer3 et_basic-woab-subcontainer3">
+                                <p class="et_b-subcontainer3-para et_basic-woab-subcontainer3-para">Some of his top
+                                    releases comprises
+                                    lily, Alone, Darkside, Faded, Sing me
+                                    to
+                                    sleep, On my way etc.</p>
+                            </div>
+                            <div class="et_b-card-subcontainer4 et_basic-woab-subcontainer4">
+                                <div
+                                    class="et_b-subcontainer4-action-buttons et_basic-woab-subcontainer4-action-buttons">
+                                    <button class="et_action-buttons">READ</button>
+                                    <button class="et_action-buttons">BOOKMARK</button>
+                                </div>
+                                <div class="et_b-subcontainer4-icon-buttons et_basic-woab-subcontainer4-icon-buttons">
+                                    <button class="et_icon-buttons"><i
+                                            class="far fa-heart"><span>like</span></i></button>
+                                    <button class="et_icon-buttons"><i
+                                            class="fas fa-share-alt"><span>share</span></i></button>
+                                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more
+                                                options</span></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- basic w/ only action buttons component4 ends -->
+                    </div>
+
+                    <p class="t-4">For using basic w/ only action buttons card component in your project, copy & paste
+                        the
+                        below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_b-card-container%2520et_basic-woab-card-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer1%2520et_basic-woab-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer2%2520et_basic-woab-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522et_b-subcontainer2-heading1%2520et_basic-woab-subcontainer2-heading1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520New%2520album%2520out%2520now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522et_b-subcontainer2-heading2%2520et_basic-woab-subcontainer2-heading2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520By%2520Alan%2520Walker%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer3%2520et_basic-woab-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522et_b-subcontainer3-para%2520et_basic-woab-subcontainer3-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Some%2520of%2520his%2520top%2520releases%2520comprises%2520lily%252C%2520Alone%252C%2520Darkside%252C%2520Faded%252C%2520Sing%2520me%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520to%2520sleep%252C%2520On%2520my%2520way%2520etc.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer4%2520et_basic-woab-subcontainer4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-action-buttons%2520et_basic-woab-subcontainer4-action-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-icon-buttons%2520et_basic-woab-subcontainer4-icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253Cspan%253Elike%253C%252Fspan%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253Cspan%253Eshare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253Cspan%253Emore%2520options%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1005px; height: 823px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Basic w/ only icons card</h4>
+                    <p class="t-4">This card displays only the icon buttons in the section four.</p>
+
+                    <div class="et_b-main">
+                        <!-- basic w/ only icons component5 starts -->
+                        <div class="et_b-card-container et_basic-woi-card-container">
+                            <div class="et_b-card-subcontainer1 et_basic-woi-subcontainer1">
+                                <img />
+                            </div>
+                            <div class="et_b-card-subcontainer2 et_basic-woi-subcontainer2">
+                                <h4 class="et_b-subcontainer2-heading1 et_basic-woi-subcontainer2-heading1">New album
+                                    out now</h4>
+                                <h6 class="et_b-subcontainer2-heading2 et_basic-woi-subcontainer2-heading2">By Alan
+                                    Walker</h6>
+                            </div>
+                            <div class="et_b-card-subcontainer3 et_basic-woi-subcontainer3">
+                                <p class="et_b-subcontainer3-para et_basic-woi-subcontainer3-para">Some of his top
+                                    releases comprises
+                                    lily, Alone, Darkside, Faded, Sing me
+                                    to
+                                    sleep, On my way etc.</p>
+                            </div>
+                            <div class="et_b-card-subcontainer4 et_basic-woi-subcontainer4">
+                                <div
+                                    class="et_b-subcontainer4-action-buttons et_basic-woi-subcontainer4-action-buttons">
+                                    <button class="et_action-buttons">READ</button>
+                                    <button class="et_action-buttons">BOOKMARK</button>
+                                </div>
+                                <div class="et_b-subcontainer4-icon-buttons et_basic-woi-subcontainer4-icon-buttons">
+                                    <button class="et_icon-buttons"><i
+                                            class="far fa-heart"><span>like</span></i></button>
+                                    <button class="et_icon-buttons"><i
+                                            class="fas fa-share-alt"><span>share</span></i></button>
+                                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more
+                                                options</span></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- basic w/ only icons component5 ends -->
+                    </div>
+
+                    <p class="t-4">For using basic w/ only icons card component in your project, copy & paste the
+                        below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_b-card-container%2520et_basic-woi-card-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer1%2520et_basic-woi-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer2%2520et_basic-woi-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522et_b-subcontainer2-heading1%2520et_basic-woi-subcontainer2-heading1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520New%2520album%2520out%2520now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522et_b-subcontainer2-heading2%2520et_basic-woi-subcontainer2-heading2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520By%2520Alan%2520Walker%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer3%2520et_basic-woi-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522et_b-subcontainer3-para%2520et_basic-woi-subcontainer3-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Some%2520of%2520his%2520top%2520releases%2520comprises%2520lily%252C%2520Alone%252C%2520Darkside%252C%2520Faded%252C%2520Sing%2520me%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520to%2520sleep%252C%2520On%2520my%2520way%2520etc.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer4%2520et_basic-woi-subcontainer4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-action-buttons%2520et_basic-woi-subcontainer4-action-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-icon-buttons%2520et_basic-woi-subcontainer4-icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253Cspan%253Elike%253C%252Fspan%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253Cspan%253Eshare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253Cspan%253Emore%2520options%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1014px; height: 823px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Basic w/ horizontal image and text card</h4>
+                    <p class="t-4">This card has a horizontal layout.</p>
+
+                    <div class="et_b-main">
+                        <!-- basic w/ horizontal image and text component6 starts -->
+                        <div class="et_b-card-container et_basic-whiat-card-container">
+                            <div class="et_b-card-subcontainer1 et_basic-whiat-subcontainer1">
+                                <img />
+                            </div>
+                            <div class="et_b-card-subcontainer2 et_basic-whiat-subcontainer2">
+                                <h4 class="et_b-subcontainer2-heading1 et_basic-whiat-subcontainer2-heading1">New album
+                                    out now</h4>
+                                <h6 class="et_b-subcontainer2-heading2 et_basic-whiat-subcontainer2-heading2">By Alan
+                                    Walker</h6>
+                            </div>
+                            <div class="et_b-card-subcontainer3 et_basic-whiat-subcontainer3">
+                                <p class="et_b-subcontainer3-para et_basic-whiat-subcontainer3-para">Some of his top
+                                    releases comprises
+                                    lily, Alone, Darkside, Faded, Sing me
+                                    to
+                                    sleep, On my way etc.</p>
+                            </div>
+                            <div class="et_b-card-subcontainer4 et_basic-whiat-subcontainer4">
+                                <div
+                                    class="et_b-subcontainer4-action-buttons et_basic-whiat-subcontainer4-action-buttons">
+                                    <button class="et_action-buttons">READ</button>
+                                    <button class="et_action-buttons">BOOKMARK</button>
+                                </div>
+                                <div class="et_b-subcontainer4-icon-buttons et_basic-whiat-subcontainer4-icon-buttons">
+                                    <button class="et_icon-buttons"><i
+                                            class="far fa-heart"><span>like</span></i></button>
+                                    <button class="et_icon-buttons"><i
+                                            class="fas fa-share-alt"><span>share</span></i></button>
+                                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more
+                                                options</span></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- basic w/ horizontal image and text component6 ends -->
+                    </div>
+
+                    <p class="t-4">For using basic w/ horizontal image and text card component in your project, copy &
+                        paste the
+                        below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_b-card-container%2520et_basic-whiat-card-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer1%2520et_basic-whiat-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer2%2520et_basic-whiat-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522et_b-subcontainer2-heading1%2520et_basic-whiat-subcontainer2-heading1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520New%2520album%2520out%2520now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522et_b-subcontainer2-heading2%2520et_basic-whiat-subcontainer2-heading2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520By%2520Alan%2520Walker%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer3%2520et_basic-whiat-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522et_b-subcontainer3-para%2520et_basic-whiat-subcontainer3-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Some%2520of%2520his%2520top%2520releases%2520comprises%2520lily%252C%2520Alone%252C%2520Darkside%252C%2520Faded%252C%2520Sing%2520me%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520to%2520sleep%252C%2520On%2520my%2520way%2520etc.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-card-subcontainer4%2520et_basic-whiat-subcontainer4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-action-buttons%2520et_basic-whiat-subcontainer4-action-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_action-buttons%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_b-subcontainer4-icon-buttons%2520et_basic-whiat-subcontainer4-icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253Cspan%253Elike%253C%252Fspan%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253Cspan%253Eshare%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_icon-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253Cspan%253Emore%2520options%253C%252Fspan%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1005px; height: 823px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">For using the same icons or for importing any other from
+                        font-awesome you need to simply copy & paste the code below in
+                        your head file.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fuse.fontawesome.com%252Freleases%252Fv5.5.0%252Fcss%252Fall.css%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520integrity%253D%2522sha384-B4dIYHKNBt8Bc12p%252BWXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S%252BL3BlXeVIU%2522%2520crossorigin%253D%2522anonymous%2522%253E"
+                            style="width: 1024px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">For making these components work, you need to import the stylesheet.
+                        For doing so, just simply copy & paste the below code in your head tag.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Findex.css%2522%253E"
+                            style="width: 870px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="t-4"><span class="fw-4">PS:</span> Feedbacks are most welcomed! We believe in providing
+                        the user the best experience, taking in account for the user feedbacks! Connect us via social
+                        platforms to stay updated.</p>
+                        
                 </div>
+                <!-- card components end -->
+
             </div>
         </div>
-        <!-- basic w/ horizontal image and text component6 ends -->
+        <!-- main-section content ends here -->
+
     </div>
-    <!-- card components end -->
+    <!-- the-main-section ends here -->
+    </div>
+    <!-- main-page ends here -->
+
+    <script src="/components/button/button.js" type="text/javascript"></script>
 </body>
+
 </html>

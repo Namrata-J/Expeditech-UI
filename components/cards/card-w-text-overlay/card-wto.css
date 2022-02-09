@@ -6,8 +6,8 @@
 .et_card-wto-container {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    margin: 1rem;
+    flex-direction: column;
+    justify-content: center;;
 }
 
 .et_card-wto-container>* {
