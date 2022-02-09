@@ -9,95 +9,410 @@
     <link rel="shortcut icon" type="image/svg" href="/Images/Expeditech-favicon.jpeg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <title>Expeditech UI</title>
+    <title>Badge cards | Cards | Expeditech UI</title>
 </head>
 
 <body>
-    <!-- cards with badges start here -->
-    <div class="cards-w-badges-container">
 
-        <!-- cards with badges type1 start here -->
-        <div class="card-w-badge-type1 card-w-badge b-rad1">
-            <div class="badge-type1 fw-4">New</div>
-            <i class="far fa-heart"></i>
+    <!-- main-page starts here -->
+    <div class="et_main-page">
+        <!-- header starts -->
+        <header class="et_landing-page-header main-page-header">
+            <div class="et_landing-page-header-inner-container">
+                <!-- header-inner-container child1 starts -->
+                <div class="et_inner-container-child1"><img src="/Images/Expeditech UI-logos.jpeg" alt="Expeditech UI"
+                        width="130" class="et_logo" /></div>
+                <!-- header-inner-container child1 ends -->
 
-            <div class="card-w-badge-subcontainer1">
-            </div>
-            <div class="card-w-badge-subcontainer2">
-                <div class="product-description">
-                    <div class="card-title fw-4">Nike</div>
-                    <div class="card-subtitle">Comfortable shoes for men</div>
+                <!-- header-inner-container child2 starts -->
+                <div class="et_inner-container-child2">
+                    <div><a href="https://twitter.com/muse_the_coder"><i class="fab fa-twitter"></i></a></div>
+                    <div><a href="https://www.linkedin.com/in/namrata-jain-2b6203216/"><i
+                                class="fab fa-linkedin"></i></a></div>
+                    <div><a href="https://github.com/Namrata-J/Expeditech-UI"><i class="fab fa-github"></i></a></div>
                 </div>
-                <div class="card-product-price fw-3">
-                    <div>
-                        <span class="p-mrp fw-1">1000</span>
-                        <span class="p-discounted-price">₹900</span>
+                <!-- header-inner-container child2 ends -->
+            </div>
+        </header>
+        <!-- header ends -->
+
+
+        <!-- the-main-section starts here -->
+        <div class="et_main-section-container">
+
+            <!-- main-section sidebar starts here -->
+            <div class="et_main-section-sidebar-container">
+                <div class="et_main-section-sidebar">
+                    <div class="et_sidebar-title-section">
+                        <h3 class="et_sidebar-title fw-1 t-3">Get started</h3>
                     </div>
-                    <div class="p-dicount">90% off</div>
+                    <div class="et_sidebar-link-section">
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
+                        <nav class="et_sidebar-link-section-nav">
+                            <a class="link" href="/documentation/documentation.html">
+                                <span class="et_sidebar-nav-item t-4">Introduction</span>
+                            </a>
+                            <a class="link" href="/documentation/installation.html">
+                                <span class="et_sidebar-nav-item t-4">Installation</span>
+                            </a>
+                            <a class="link" href="/documentation/features.html">
+                                <span class="et_sidebar-nav-item t-4">Features</span>
+                            </a>
+                        </nav>
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
+                        <nav class="et_sidebar-link-section-nav">
+                            <a class="link" href="/components/alert/alert.html">
+                                <span class="et_sidebar-nav-item t-4">Alerts</span>
+                                <ul class="et_nav-item-sublist t-4">
+                                    <li><a class="link" href="/components/alert/js-alerts/js-alerts.html">js-alerts</a>
+                                    </li>
+                                    <li><a class="link"
+                                            href="/components/alert/no-js-alerts/no-js-alert.html">no-js-alerts</a></li>
+                                </ul>
+                            </a>
+                            <a class="link" href="/components/avatar/avatar.html">
+                                <span class="et_sidebar-nav-item t-4">Avatar</span>
+                            </a>
+                            <a class="link" href="/components/badge/badge.html">
+                                <span class="et_sidebar-nav-item t-4">Badge</span>
+                            </a>
+                            <a class="link" href="/components/button/button.html">
+                                <span class="et_sidebar-nav-item t-4">Button</span>
+                            </a>
+                            <a class="link" href="/components/cards/cards.html">
+                                <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                                <ul class="et_nav-item-sublist t-4">
+                                    <li><a class="link" href="/components/cards/basic-cards/basic-cards.html">Basic
+                                            cards</a></li>
+                                    <li><a class="link active"
+                                            href="/components/cards/card-w-badge/card-w-badges.html">Badge
+                                            cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/card-w-dismiss/card-w-dismiss.html">Dismissible
+                                            cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/card-w-text-overlay/card-wto.html">Text-overlay
+                                            Cards</a></li>
+                                    <li><a class="link"
+                                            href="/components/cards/text-only-cards/text-only-card.html">Text-only
+                                            Cards</a></li>
+                                </ul>
+                            </a>
+                            <a class="link" href="/components/images/responsive-images.html">
+                                <span class="et_sidebar-nav-item t-4">Image</span>
+                            </a>
+                            <a class="link" href="/components/inputs/inputs.html">
+                                <span class="et_sidebar-nav-item t-4">Input</span>
+                            </a>
+                            <a class="link" href="/components/snackbar/snackbar.html">
+                                <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                            </a>
+                            <a class="link" href="/components/chips/chips.html">
+                                <span class="et_sidebar-nav-item t-4">Chip</span>
+                            </a>
+                            <a class="link" href="/components/dialog/dialog.html">
+                                <span class="et_sidebar-nav-item t-4">Dialog</span>
+                            </a>
+                        </nav>
+                    </div>
                 </div>
             </div>
-            <div class="card-w-badge-subcontainer3">
-                <button class="et_ss-btn action-color t-4 btn">Add To Cart</button>
-                <button class="et_so-btn action-color t-4 btn">Buy Now</button>
+            <!-- main-section sidebar ends here -->
+
+            <!-- main-section floating button starts here -->
+            <div class="et_fa-btn-type1 fa-links-btn b-rad4">
+                <span><i class="fas fa-plus fa-btn"></i></span>
+                <ul class="b-rad2 fa-btn-pop-up-list">
+                    <h3 class="et_sidebar-title fw-1 t-3">Get started</h3>
+                    <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
+                    <li>
+                        <a class="link" href="/documentation/documentation.html">
+                            <span class="et_sidebar-nav-item t-4">Introduction</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/documentation/installation.html">
+                            <span class="et_sidebar-nav-item t-4">Installation</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/documentation/features.html">
+                            <span class="et_sidebar-nav-item t-4">Features</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/alert.html">
+                            <span class="et_sidebar-nav-item t-4">Alerts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/js-alerts/js-alerts.html">
+                            <span class="et_sidebar-nav-item t-4">js-alerts</span></a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/alert/no-js-alerts/no-js-alert.html">
+                            <span class="et_sidebar-nav-item t-4">no-js-alerts</span></a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/avatar/avatar.html">
+                            <span class="et_sidebar-nav-item t-4">Avatar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/badge/badge.html">
+                            <span class="et_sidebar-nav-item t-4">Badge</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/button/button.html">
+                            <span class="et_sidebar-nav-item t-4">Button</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/cards.html">
+                            <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/basic-cards/basic-cards.html">
+                            <span class="et_sidebar-nav-item t-4">Basic cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-badge/card-w-badges.html">
+                            <span class="et_sidebar-nav-item t-4 active">Badge cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-dismiss/card-w-dismiss.html">
+                            <span class="et_sidebar-nav-item t-4">Dismissible cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/card-w-text-overlay/card-wto.html">
+                            <span class="et_sidebar-nav-item t-4">Text-overlay cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/cards/text-only-cards/text-only-card.html">
+                            <span class="et_sidebar-nav-item t-4">Text-only cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/images/responsive-images.html">
+                            <span class="et_sidebar-nav-item t-4">Image</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/inputs/inputs.html">
+                            <span class="et_sidebar-nav-item t-4">Input</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/snackbar/snackbar.html">
+                            <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/chips/chips.html">
+                            <span class="et_sidebar-nav-item t-4">Chip</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="link" href="/components/dialog/dialog.html">
+                            <span class="et_sidebar-nav-item t-4">Dialog</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- main-section floating button ends here -->
+
+            <!-- main-section content starts here -->
+            <div class="et_main-section-content-container">
+                <div class="et_main-section-content">
+                    <!-- cards with badges start here -->
+
+                    <h3 class="fw-2 t-3">Cards</h3>
+                    <p class="t-4">Cards contain content and actions about a single subject. Cards are surfaces that
+                        display content and actions on a single topic. They are easy to scan for relevant and
+                        actionable
+                        information.</p>
+
+                    <h4 class="fw-2 t-3">Badge Cards</h4>
+                    <p class="t-4">card-badges is useful for showing quick, glanceable information on the front of
+                        cards. You can provide an icon, some text, as well as an optional color for each of your
+                        badges.</p>
+
+                    <h4 class="fw-2 t-3">Card w/ badge type1</h4>
+                    <p>This a first type of a badge that a card might have.</p>
+
+                    <div class="cards-w-badges-container">
+                        <!-- cards with badges type1 start here -->
+                        <div class="card-w-badge-type1 card-w-badge b-rad1">
+                            <div class="badge-type1 fw-4">New</div>
+                            <i class="far fa-heart"></i>
+
+                            <div class="card-w-badge-subcontainer1">
+                            </div>
+                            <div class="card-w-badge-subcontainer2">
+                                <div class="product-description">
+                                    <div class="card-title fw-4">Nike</div>
+                                    <div class="card-subtitle">Comfortable shoes for men</div>
+                                </div>
+                                <div class="card-product-price fw-3">
+                                    <div>
+                                        <span class="p-mrp fw-1">1000</span>
+                                        <span class="p-discounted-price">₹900</span>
+                                    </div>
+                                    <div class="p-dicount">90% off</div>
+                                </div>
+                            </div>
+                            <div class="card-w-badge-subcontainer3">
+                                <button class="et_ss-btn action-color t-4 btn">Add To Cart</button>
+                                <button class="et_so-btn action-color t-4 btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <!-- cards with badges type1 end here -->
+                    </div>
+
+                    <p class="t-4">For using above component in your project, copy & paste the below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-w-badge-type1%2520card-w-badge%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-type1%2520fw-4%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520fw-4%2522%253ENike%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253EComfortable%2520shoes%2520for%2520men%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-product-price%2520fw-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522p-mrp%2520fw-1%2522%253E1000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522p-discounted-price%2522%253E%25E2%2582%25B9900%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-dicount%2522%253E90%2525%2520off%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520action-color%2520t-4%2520btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_so-btn%2520action-color%2520t-4%2520btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 812px; height: 637px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Card w/ badge type2</h4>
+                    <p>This a second type of a badge that a card might have.</p>
+
+                    <div class="cards-w-badges-container">
+                        <!-- cards with badges type2 start here -->
+                        <div class="card-w-badge-type2 card-w-badge b-rad1">
+                            <i class="far fa-heart"></i>
+
+                            <div class="card-w-badge-subcontainer1">
+                            </div>
+                            <div class="card-w-badge-subcontainer2">
+                                <div class="product-description">
+                                    <div class="card-title fw-4">Nike</div>
+                                    <div class="card-subtitle">Comfortable shoes for men</div>
+                                </div>
+                                <div class="card-product-price fw-3">
+                                    <div>
+                                        <span class="p-mrp fw-1">1000</span>
+                                        <span class="p-discounted-price">₹900</span>
+                                    </div>
+                                    <div class="p-dicount">90% off</div>
+                                </div>
+                            </div>
+                            <div class="card-w-badge-subcontainer3">
+                                <button class="et_ss-btn action-color t-4 btn">Add To Cart</button>
+                                <button class="et_so-btn action-color t-4 btn">Buy Now</button>
+                            </div>
+                        </div>
+                        <!-- cards with badges type2 end here -->
+                    </div>
+
+                    <p class="t-4">For using above component in your project, copy & paste the below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-w-badge-type2%2520card-w-badge%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520fw-4%2522%253ENike%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253EComfortable%2520shoes%2520for%2520men%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-product-price%2520fw-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522p-mrp%2520fw-1%2522%253E1000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522p-discounted-price%2522%253E%25E2%2582%25B9900%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-dicount%2522%253E90%2525%2520off%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520action-color%2520t-4%2520btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_so-btn%2520action-color%2520t-4%2520btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 803px; height: 618px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Card w/ badge type3</h4>
+                    <p>This a third type of a badge that a card might have. It has a stock out badge and therefore has a
+                        button disability feature.</p>
+
+                    <div class="cards-w-badges-container">
+                        <!-- cards with badges type3 start here -->
+                        <div class="card-w-badge-type3 card-w-badge b-rad1">
+                            <div class="badge-type3">Stock Out</div>
+                            <i class="far fa-heart"></i>
+
+                            <div class="card-w-badge-subcontainer1">
+                            </div>
+                            <div class="card-w-badge-subcontainer2">
+                                <div class="product-description">
+                                    <div class="card-title fw-4">Nike</div>
+                                    <div class="card-subtitle">Comfortable shoes for men</div>
+                                </div>
+                                <div class="card-product-price fw-3">
+                                    <div>
+                                        <span class="p-mrp fw-1">1000</span>
+                                        <span class="p-discounted-price">₹900</span>
+                                    </div>
+                                    <div class="p-dicount">90% off</div>
+                                </div>
+                            </div>
+                            <div class="card-w-badge-subcontainer3">
+                                <button class="et_ss-btn action-color t-4 btn" disabled>Add To Cart</button>
+                                <button class="et_so-btn action-color t-4 btn" disabled>Buy Now</button>
+                            </div>
+                        </div>
+                        <!-- cards with badges type3 end here -->
+                    </div>
+
+                    <p class="t-4">For using above component in your project, copy & paste the below html template.
+                    </p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-w-badge-type3%2520card-w-badge%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-type3%2522%253EStock%2520Out%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer1%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2520fw-4%2522%253ENike%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253EComfortable%2520shoes%2520for%2520men%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-product-price%2520fw-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522p-mrp%2520fw-1%2522%253E1000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522p-discounted-price%2522%253E%25E2%2582%25B9900%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-dicount%2522%253E90%2525%2520off%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-w-badge-subcontainer3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520action-color%2520t-4%2520btn%2522%2520disabled%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_so-btn%2520action-color%2520t-4%2520btn%2522%2520disabled%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 879px; height: 637px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+
+                    <p class="et_how-to-import t-4">For using the same icons or for importing any other from
+                        font-awesome you need to simply copy & paste the code below in
+                        your head file.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fuse.fontawesome.com%252Freleases%252Fv5.5.0%252Fcss%252Fall.css%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520integrity%253D%2522sha384-B4dIYHKNBt8Bc12p%252BWXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S%252BL3BlXeVIU%2522%2520crossorigin%253D%2522anonymous%2522%253E"
+                            style="width: 1024px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">For making these components work, you need to import the stylesheet.
+                        For doing so, just simply copy & paste the below code in your head tag.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Findex.css%2522%253E"
+                            style="width: 870px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="t-4"><span class="fw-4">PS:</span> Feedbacks are most welcomed! We believe in providing
+                        the user the best experience, taking in account for the user feedbacks! Connect us via social
+                        platforms to stay updated.</p>
+                </div>
+                <!-- cards with badges end here -->
             </div>
         </div>
-        <!-- cards with badges type1 end here -->
+        <!-- main-section content ends here -->
 
-        <!-- cards with badges type2 start here -->
-        <div class="card-w-badge-type2 card-w-badge b-rad1">
-            <i class="far fa-heart"></i>
-
-            <div class="card-w-badge-subcontainer1">
-            </div>
-            <div class="card-w-badge-subcontainer2">
-                <div class="product-description">
-                    <div class="card-title fw-4">Nike</div>
-                    <div class="card-subtitle">Comfortable shoes for men</div>
-                </div>
-                <div class="card-product-price fw-3">
-                    <div>
-                        <span class="p-mrp fw-1">1000</span>
-                        <span class="p-discounted-price">₹900</span>
-                    </div>
-                    <div class="p-dicount">90% off</div>
-                </div>
-            </div>
-            <div class="card-w-badge-subcontainer3">
-                <button class="et_ss-btn action-color t-4 btn">Add To Cart</button>
-                <button class="et_so-btn action-color t-4 btn">Buy Now</button>
-            </div>
-        </div>
-
-        <!-- cards with badges type2 end here -->
-
-        <!-- cards with badges type3 start here -->
-        <div class="card-w-badge-type3 card-w-badge b-rad1">
-            <div class="badge-type3">Stock Out</div>
-            <i class="far fa-heart"></i>
-
-            <div class="card-w-badge-subcontainer1">
-            </div>
-            <div class="card-w-badge-subcontainer2">
-                <div class="product-description">
-                    <div class="card-title fw-4">Nike</div>
-                    <div class="card-subtitle">Comfortable shoes for men</div>
-                </div>
-                <div class="card-product-price fw-3">
-                    <div>
-                        <span class="p-mrp fw-1">1000</span>
-                        <span class="p-discounted-price">₹900</span>
-                    </div>
-                    <div class="p-dicount">90% off</div>
-                </div>
-            </div>
-            <div class="card-w-badge-subcontainer3">
-                <button class="et_ss-btn action-color t-4 btn" disabled>Add To Cart</button>
-                <button class="et_so-btn action-color t-4 btn" disabled>Buy Now</button>
-            </div>
-        </div>
-        <!-- cards with badges type3 end here -->
     </div>
-    <!-- cards with badges end here -->
+    <!-- the-main-section ends here -->
+    </div>
+    <!-- main-page ends here -->
+
+    <script src="/components/button/button.js" type="text/javascript"></script>
 </body>
 
 </html>

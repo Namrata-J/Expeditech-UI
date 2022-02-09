@@ -8,10 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem;
-}
-.et_to-cards-container>*{
-    margin: 1rem;
+    margin: 1rem 0rem;
 }
 /* text only card type1 start here */
 .et_to-card-type1{
@@ -65,6 +62,7 @@
     background-color: var(--action);
     display: inline-block;
     position: absolute;
+    top: 0;
     width: 4rem;
     height: 0.2rem;
 }
@@ -88,6 +86,9 @@
 @media only screen and (max-width: 650px){
     .et_to-card-type2{
         flex-direction: column;
+    }
+    .et_to-card-type2-section1{
+        border-radius: 0.5rem;
     }
 }
 @media only screen and (max-width: 450px){

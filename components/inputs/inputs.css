@@ -1,5 +1,6 @@
 @import url(/css/base.css);
 @import url(/css/utility.css);
+@import url(/documentation/documentation.css);
 
 /* input component start here */
 .et_input-container {

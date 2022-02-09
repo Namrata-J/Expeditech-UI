@@ -1,0 +1,142 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+@import url(/documentation/documentation.css);
+
+.et_dialog-button-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.et_dialog-button-container>* {
+    border: 1px solid var(--black);
+    font-size: small;
+    margin: 1rem 0rem;
+    padding: 0.8rem 1rem;
+}
+
+.et_dialog-button-container button:hover {
+    background-color: var(--light-bluish-shade);
+    cursor: pointer;
+}
+
+.et_dialog-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* alert dialog starts */
+.for-alert-dialog{
+    position: relative;
+}
+.dialog {
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 2px 1px var(--black);
+    bottom: -20px;
+    display: none;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    width: 14rem; 
+    z-index: 3;
+}
+
+.dialog h2 {
+    font-size: larger;
+}
+
+.dialog h3 {
+    color: var(--light-gray);
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.action-btns {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.action-btns>* {
+    color: var(--secondary-color);
+    font-size: x-small;
+    font-weight: bold;
+    padding: 0.6rem;
+    margin: 0.5rem 0rem;
+}
+
+.action-btns span:hover {
+    background-color: var(--light-bluish-shade);
+    cursor: pointer;
+}
+
+/* alert dialog ends */
+
+/* simple dialog starts */
+.for-simple-dialog{
+    position: relative;
+}
+.simple-dialog-actions>* {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem;
+    margin: 0.5rem 0rem;
+}
+
+.simple-dialog-actions i {
+    color: rgb(129, 134, 136);
+    font-size: 2rem;
+}
+
+.simple-dialog-actions span {
+    font-size: small;
+}
+
+.simple-dialog-actions div:hover {
+    background-color: var(--light-bluish-shade);
+    cursor: pointer;
+}
+
+/* simple dialog ends */
+
+/* confirmation dialog starts */
+.for-confirmation-dialog{
+    position: relative;
+}
+.et_confirmation-dialog-container h2 {
+    padding: 0.5rem 0rem;
+}
+
+.input-fields {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.input-fields label {
+    font-size: small;
+}
+
+.input-fields input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.input-fields li {
+    list-style-type: none;
+}
+
+.input-fields label {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0rem;
+}
+
+.solid {
+    border-bottom: 1px solid var(--medium-gray);
+}
+
+/* confirmation dialog ends */

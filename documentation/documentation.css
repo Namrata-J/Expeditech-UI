@@ -20,7 +20,6 @@
     background-color: var(--lightest-gray);
     border-right: 1px solid var(--light-gray);
     color: var(--light-gray);
-    margin: 1rem 0;
     padding: 2rem 1rem;
     width: 12rem;
 }

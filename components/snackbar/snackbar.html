@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/documentation/documentation.css">
-    <link rel="stylesheet" type="text/css" href="/components/cards/card.css">
     <link rel="shortcut icon" type="image/svg" href="/Images/Expeditech-favicon.jpeg">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <title>Cards | Expeditech UI</title>
+    <link rel="stylesheet" type="text/css" href="/components/snackbar/snackbar.css" />
+    <title>Snackbar | Expeditech UI</title>
 </head>
 
 <body>
@@ -81,7 +80,7 @@
                                 <span class="et_sidebar-nav-item t-4">Button</span>
                             </a>
                             <a class="link" href="/components/cards/cards.html">
-                                <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                                <span class="et_sidebar-nav-item t-4">Cards</span>
                                 <ul class="et_nav-item-sublist t-4">
                                     <li><a class="link" href="/components/cards/basic-cards/basic-cards.html">Basic
                                             cards</a></li>
@@ -105,7 +104,7 @@
                                 <span class="et_sidebar-nav-item t-4">Input</span>
                             </a>
                             <a class="link" href="/components/snackbar/snackbar.html">
-                                <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                                <span class="et_sidebar-nav-item t-4 active">Snackbar</span>
                             </a>
                             <a class="link" href="/components/chips/chips.html">
                                 <span class="et_sidebar-nav-item t-4">Chip</span>
@@ -174,7 +173,7 @@
                     </li>
                     <li>
                         <a class="link" href="/components/cards/cards.html">
-                            <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                            <span class="et_sidebar-nav-item t-4">Cards</span>
                         </a>
                     </li>
                     <li>
@@ -214,7 +213,7 @@
                     </li>
                     <li>
                         <a class="link" href="/components/snackbar/snackbar.html">
-                            <span class="et_sidebar-nav-item t-4">Snackbar</span>
+                            <span class="et_sidebar-nav-item t-4 active">Snackbar</span>
                         </a>
                     </li>
                     <li>
@@ -235,188 +234,146 @@
             <div class="et_main-section-content-container">
                 <div class="et_main-section-content">
 
-                    <h3 class="fw-2 t-3">Cards</h3>
-                    <p class="t-4">Cards contain content and actions about a single subject. Cards are surfaces that
-                        display content and actions on a single topic. They are easy to scan for relevant and actionable
-                        information.</p>
+                    <h3 class="fw-2 t-3">Snackbars</h3>
+                    <p class="t-4">Snackbars inform users of a process that an app has performed or will perform. They
+                        appear temporarily, towards the bottom of the screen. They shouldn't interrupt the user
+                        experience, and they don't require user input to disappear.</p>
 
-                    <p class="t-4">Expeditech UI provides different categories of cards to the user. It
-                        takes accountability for the user needs, uses reusable classes, for getting your tasks done
-                        sooner.</p>
+                    <p class="t-4">Or in simple words, snackbars communicate messages that are minimally interruptive
+                        and don't
+                        require user action.</p>
 
-                    <h4 class="fw-2 t-3">Basic cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
+                    <p class="t-4">Expeditech UI provides dismissible snackbars.</p>
 
-                    <div class="et_b-main">
-                        <!-- basic card component -->
-                        <div class="et_b-card-container">
-                            <div class="et_b-card-subcontainer1">
-                                <img />
-                            </div>
-                            <div class="et_b-card-subcontainer2">
-                                <h4 class="et_b-subcontainer2-heading1">New album out now</h4>
-                                <h6 class="et_b-subcontainer2-heading2">By Alan Walker</h6>
-                            </div>
-                            <div class="et_b-card-subcontainer3">
-                                <p class="et_b-subcontainer3-para">Some of his top releases comprises lily, Alone,
-                                    Darkside, Faded, Sing
-                                    me
-                                    to
-                                    sleep, On my way etc.</p>
-                            </div>
-                            <div class="et_b-card-subcontainer4">
-                                <div class="et_b-subcontainer4-action-buttons">
-                                    <button class="et_action-buttons">READ</button>
-                                    <button class="et_action-buttons">BOOKMARK</button>
-                                </div>
-                                <div class="et_b-subcontainer4-icon-buttons">
-                                    <button class="et_icon-buttons"><i
-                                            class="far fa-heart"><span>like</span></i></button>
-                                    <button class="et_icon-buttons"><i
-                                            class="fas fa-share-alt"><span>share</span></i></button>
-                                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more
-                                                options</span></i></button>
-                                </div>
+                    <p class="t-4">
+                        Expeditech UI provides varities of snackbars i.e.
+                        <span class="fw-3 span-color-for-varities">baseline snackbar, leading snackbar, stacked
+                            snackbar.</span>
+
+                        <h4 class="fw-2 t-3">Baseline snackbar</h4>
+                        <p class="t-4">Click the below button to see a demo of baseline snackbar.
+                        </p>
+
+                        <div class="et_snackbar-container">
+                            <button class="et_baseline b-rad1 t-4">Baseline</button>
+                        </div>
+
+                        <p class="t-4">Copy & paste the below html template to use the above component in your project.
+                        </p>
+
+                        <div class="i-frame">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_snackbar-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_baseline%2520b-rad1%2520t-4%2522%253EBaseline%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522et_baseline-snackbar%2520snackbar%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%253Ch3%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_retry%2520action%2522%253ERetry%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-closeBtn%2520btn1%2522%253Ex%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 651px; height: 322px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <h4 class="fw-2 t-3">Leading snackbar</h4>
+                        <p class="t-4">Click the below button to see a demo of leading snackbar.
+                        </p>
+
+                        <div class="et_snackbar-container">
+                            <button class="et_leading b-rad1 t-4">Leading</button>
+                        </div>
+
+                        <p class="t-4">Copy & paste the below html template to use the above component in your project.
+                        </p>
+
+                        <div class="i-frame">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_snackbar-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_leading%2520b-rad1%2520t-4%2522%253ELeading%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522et_leading-snackbar%2520snackbar%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%253Ch3%253EYour%2520photo%2520has%2520been%2520archived.%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_undo%2520action%2522%253EUndo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-closeBtn%2520btn2%2522%253Ex%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 635px; height: 322px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <h4 class="fw-2 t-3">Stacked snackbar</h4>
+                        <p class="t-4">Click the below button to see a demo of stacked snackbar.
+                        </p>
+
+                        <div class="et_snackbar-container">
+                            <button class="et_stacked b-rad1 t-4">Stacked</button>
+                        </div>
+
+                        <p class="t-4">Copy & paste the below html template to use the above component in your project.
+                        </p>
+
+                        <div class="i-frame">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_snackbar-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_stacked%2520b-rad1%2520t-4%2522%253EStacked%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522et_stacked-snackbar%2520snackbar%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%253Ch3%253EThis%2520item%2520already%2520has%2520the%2520label%2520%2522travel%2522.%2520You%2520can%2520add%2520a%2520new%2520label.%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_stacked%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_add-label%2520action%2522%253EAdd%2520A%2520New%2520Label%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-closeBtn%2520btn3%2522%253Ex%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                style="width: 812px; height: 359px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <!-- baseline snackbar starts -->
+                        <div class="et_baseline-snackbar snackbar b-rad1">
+                            <h3>Can't send photo. Retry in 5 seconds.</h3>
+                            <div class="et_retry action">Retry</div>
+                            <div class="snackbar-closeBtn btn1">x</div>
+                        </div>
+                        <!-- baseline snackbar ends -->
+
+                        <!-- leading snackbar starts -->
+                        <div class="et_leading-snackbar snackbar b-rad1">
+                            <h3>Your photo has been archived.</h3>
+                            <div class="et_undo action">Undo</div>
+                            <div class="snackbar-closeBtn btn2">x</div>
+                        </div>
+                        <!-- leading snackbar ends -->
+
+                        <!-- stacked snackbar starts -->
+                        <div class="et_stacked-snackbar snackbar b-rad1">
+                            <h3>This item already has the label "travel". You can add a new label.</h3>
+                            <div class="et_stacked">
+                                <div class="et_add-label action">Add A New Label</div>
+                                <div class="snackbar-closeBtn btn3">x</div>
                             </div>
                         </div>
-                        <!-- basic component1 ends -->
-                    </div>
+                        <!-- stacked snackbar ends -->
 
-                    <h4 class="fw-2 t-3">Badge cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
-
-                    <div class="cards-w-badges-container">
-                        <!-- cards with badges type2 start here -->
-                        <div class="card-w-badge-type2 card-w-badge b-rad1">
-                            <i class="far fa-heart"></i>
-
-                            <div class="card-w-badge-subcontainer1">
-                            </div>
-                            <div class="card-w-badge-subcontainer2">
-                                <div class="product-description">
-                                    <div class="card-title fw-4">Nike</div>
-                                    <div class="card-subtitle">Comfortable shoes for men</div>
-                                </div>
-                                <div class="card-product-price fw-3">
-                                    <div>
-                                        <span class="p-mrp fw-1">1000</span>
-                                        <span class="p-discounted-price">₹900</span>
-                                    </div>
-                                    <div class="p-dicount">90% off</div>
-                                </div>
-                            </div>
-                            <div class="card-w-badge-subcontainer3">
-                                <button class="et_ss-btn action-color t-4 btn">Add To Cart</button>
-                                <button class="et_so-btn action-color t-4 btn">Buy Now</button>
-                            </div>
+                        <p class="et_how-to-import t-4">For using the same icons or for importing any other from
+                            font-awesome you need to simply copy & paste the code below in
+                            your head file.</p>
+                        <div class="i-frame">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fuse.fontawesome.com%252Freleases%252Fv5.5.0%252Fcss%252Fall.css%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520integrity%253D%2522sha384-B4dIYHKNBt8Bc12p%252BWXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S%252BL3BlXeVIU%2522%2520crossorigin%253D%2522anonymous%2522%253E"
+                                style="width: 1024px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
                         </div>
-                        <!-- cards with badges type2 end here -->
-                    </div>
 
-                    <h4 class="fw-2 t-3">Dismissible cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
-
-                    <div class="et_card-wd-container">
-                        <!-- card with dismiss type2 start here -->
-                        <div class="et_card-dismiss-type2 card-wd-vertical-template">
-                            <div class="et_card-wd-section1">
-                                <img class="et_circular-avatar l-avatar b-rad4" src="/Images/avatar.jpeg"
-                                    alt="circular avatar" />
-                                <div>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </div>
-                            </div>
-                            <div class="et_card-wd-section2">
-                                <div>
-                                    <h3>Title</h3>
-                                    <h4 class="fw-1">Subtitle</h4>
-                                </div>
-                                <div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut
-                                        labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
+                        <p class="et_how-to-import t-4">For making these components work, you need to import the
+                            stylesheet.
+                            For doing so, just simply copy & paste the below code in your head tag.</p>
+                        <div class="i-frame">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Findex.css%2522%253E"
+                                style="width: 870px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
                         </div>
-                        <!-- card with dismiss type2 end here -->
-                    </div>
 
-                    <h4 class="fw-2 t-3">Text overlay cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
-
-                    <div class="et_card-wto-container">
-                        <!-- vertical card with text overlay start here -->
-                        <div class="et_vertical-shopping-card-wto b-rad1">
-                            <div class="et_vertical-shopping-card-wto-innercontainer1 b-rad1">
-                                <div class="et_shopping-card-wto-innercontainer1-subcontainer">
-                                    <h3 class="et_product-brand">adidas</h3>
-                                    <p class="et_product-description">Women's t-shirt</p>
-                                    <p>
-                                        <span class="et_product-original-price">1000</span>
-                                        <span class="et_discounted-price fw-4"> 900</span>
-                                        <span class="et_product-discount fw-4">10% 0ff</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="et_vertical-shopping-card-wto-innercontainer2 b-rad1">
-                                <button class="et_ss-btn action-color btn">Buy Now</button>
-                                <button class="et_so-btn action-color btn">Add To Cart</button>
-                            </div>
+                        <p class="et_how-to-import t-4">Also, for enabling the js functionality, you need to import the
+                            js
+                            file in your project. For doing so, just simply copy & paste the below code in your body tag
+                            of
+                            your html file.</p>
+                        <div class="i-frame">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Fsnackbar%252Fsnackbar.js%2522%2520type%253D%2522text%252Fjavascript%2522%253E%253C%252Fscript%253E"
+                                style="width: 1024px; height: 210px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
                         </div>
-                        <!-- vertical card with text overlay end here -->
-                    </div>
 
-                    <h4 class="fw-2 t-3">Text only cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
+                        <p class="t-4"><span class="fw-4">PS:</span> Feedbacks are most welcomed! We believe in
+                            providing
+                            the user the best experience, taking in account for the user feedbacks! Connect us via
+                            social
+                            platforms to stay updated.</p>
 
-                    <div class="et_to-cards-container">
-                        <!-- text only card type1 start here -->
-                        <div class="et_to-card-type1">
-                            <div>
-                                <h3>Title</h3>
-                                <h4>Subtitle</h4>
-                            </div>
-                            <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore
-                                    et dolore magna aliqua.</p>
-                            </div>
-                            <div>
-                                <a href="#"><button class="et_link-btn primary-color btn">Link</button></a>
-                                <a href="#"><button class="et_link-btn primary-color btn">Another Link</button></a>
-                            </div>
-                        </div>
-                        <!-- text only card type1 end here -->
-                    </div>
-
-                    <p class="et_how-to-import t-4">For using the same icons or for importing any other from
-                        font-awesome you need to simply copy & paste the code below in
-                        your head file.</p>
-                    <div class="i-frame">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fuse.fontawesome.com%252Freleases%252Fv5.5.0%252Fcss%252Fall.css%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520integrity%253D%2522sha384-B4dIYHKNBt8Bc12p%252BWXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S%252BL3BlXeVIU%2522%2520crossorigin%253D%2522anonymous%2522%253E"
-                            style="width: 1024px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-
-                    <p class="et_how-to-import t-4">For making these components work, you need to import the stylesheet.
-                        For doing so, just simply copy & paste the below code in your head tag.</p>
-                    <div class="i-frame">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Findex.css%2522%253E"
-                            style="width: 870px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-
-                    <p class="t-4"><span class="fw-4">PS:</span> Feedbacks are most welcomed! We believe in providing
-                        the user the best experience, taking in account for the user feedbacks! Connect us via social
-                        platforms to stay updated.</p>
-                        
                 </div>
             </div>
             <!-- main-section content ends here -->
@@ -425,7 +382,9 @@
         <!-- the-main-section ends here -->
     </div>
     <!-- main-page ends here -->
+
     <script src="/components/button/button.js" type="text/javascript"></script>
+    <script src="/components/snackbar/snackbar.js" text="text/javascript"></script>
 </body>
 
 </html>

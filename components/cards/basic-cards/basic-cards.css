@@ -1,6 +1,7 @@
 @import url(/css/base.css);
 @import url(/css/utility.css);
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Nunito:wght@200&family=Rubik&family=Sen&display=swap');
+@import url(/documentation/documentation.css);
 
 
 * {
@@ -9,21 +10,21 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(230, 233, 236);
-}
-
 /* styling on cards components */
 .et_b-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0rem;
 }
 
 .et_b-main>* {
-    margin: 2rem;
+    margin: 1rem;
+}
+
+.et_b-main h4{
+    padding: 0rem;
 }
 
 /* basic component styling*/
@@ -103,7 +104,7 @@ body {
 
 .et_icon-buttons span{
     display: none;
-    position: relative;
+    /* position: relative;/ */
 }
 
 .et_icon-buttons:hover span{
