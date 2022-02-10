@@ -1,0 +1,21 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+@import url(/documentation/documentation.css);
+
+.demo-container{
+    background-color: var(--white-color);
+    border: 1px solid var(--light-gray);
+    margin: 1rem 0rem;
+    padding: 1rem 0.5rem;
+    width: 100%;
+}
+
+.utility-image{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.text-utilities-heading-container h4{
+    padding: 0rem;
+}

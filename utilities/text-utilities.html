@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/documentation/documentation.css">
-    <link rel="stylesheet" type="text/css" href="/components/cards/card.css">
     <link rel="shortcut icon" type="image/svg" href="/Images/Expeditech-favicon.jpeg">
+    <link rel="stylesheet" type="text/css" href="/utilities/all-utilities-docs.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <title>Cards | Expeditech UI</title>
+    <title>Text utilities | Utilities | Expeditech UI</title>
 </head>
 
 <body>
@@ -81,7 +80,7 @@
                                 <span class="et_sidebar-nav-item t-4">Button</span>
                             </a>
                             <a class="link" href="/components/cards/cards.html">
-                                <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                                <span class="et_sidebar-nav-item t-4">Cards</span>
                                 <ul class="et_nav-item-sublist t-4">
                                     <li><a class="link" href="/components/cards/basic-cards/basic-cards.html">Basic
                                             cards</a></li>
@@ -117,10 +116,10 @@
                                 <span class="et_sidebar-nav-item t-4">Rating</span>
                             </a>
                         </nav>
-                        <h4 class="et_sidebar-subtext fw-1 t-4">Utilities</h4>
+                        <h4 class="et_sidebar-subtext fw-1 t-4 active">Utilities</h4>
                         <nav class="et_sidebar-link-section-nav">
                             <a class="link" href="/utilities/text-utilities.html">
-                                <span class="et_sidebar-nav-item t-4">Text utility</span>
+                                <span class="et_sidebar-nav-item t-4 active">Text utility</span>
                             </a>
                         </nav>
                     </div>
@@ -136,7 +135,7 @@
                     <h4 class="et_sidebar-subtext fw-1 t-4">Docs</h4>
                     <li>
                         <a class="link" href="/documentation/documentation.html">
-                            <span class="et_sidebar-nav-item t-4">Introduction</span>
+                            <span class="et_sidebar-nav-item t-4 active">Introduction</span>
                         </a>
                     </li>
                     <li>
@@ -183,7 +182,7 @@
                     </li>
                     <li>
                         <a class="link" href="/components/cards/cards.html">
-                            <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                            <span class="et_sidebar-nav-item t-4">Cards</span>
                         </a>
                     </li>
                     <li>
@@ -243,11 +242,11 @@
                     </li>
 
                     <li>
-                        <h4 class="et_sidebar-subtext fw-1 t-4">Utilities</h4>
+                        <h4 class="et_sidebar-subtext fw-1 t-4 active">Utilities</h4>
                     </li>
                     <li>
                         <a class="link" href="/utilities/text-utilities.html">
-                            <span class="et_sidebar-nav-item t-4">Text utility</span>
+                            <span class="et_sidebar-nav-item t-4 active">Text utility</span>
                         </a>
                     </li>
                 </ul>
@@ -258,180 +257,149 @@
             <div class="et_main-section-content-container">
                 <div class="et_main-section-content">
 
-                    <h3 class="fw-2 t-3">Cards</h3>
-                    <p class="t-4">Cards contain content and actions about a single subject. Cards are surfaces that
-                        display content and actions on a single topic. They are easy to scan for relevant and actionable
-                        information.</p>
+                    <h3 class="fw-2 t-3">Utilities</h3>
+                    <p class="t-4">Expeditech UI provides user with quite a bunch of utility classes, using which you
+                        can get rid of writing extra css code.</p>
 
-                    <p class="t-4">Expeditech UI provides different categories of cards to the user. It
-                        takes accountability for the user needs, uses reusable classes, for getting your tasks done
-                        sooner.</p>
+                    <h4 class="fw-2 t-3">Text utility</h4>
+                    <p class="t-4">Expeditech UI provides varities of text utilities i.e. <span
+                            class="fw-3 span-color-for-varities">headings, texts, gray-texts, aligned texts,
+                            weighted-texts.</span>.</p>
 
-                    <h4 class="fw-2 t-3">Basic cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
+                    <h4 class="fw-2 t-3">Headings</h4>
+                    <p class="t-4">Expeditech UI provides utilities for headings, you can simply assign header tag and
+                        it will assign predefined line height and font-size to them automatically.</p>
 
-                    <div class="et_b-main">
-                        <!-- basic card component -->
-                        <div class="et_b-card-container">
-                            <div class="et_b-card-subcontainer1">
-                                <img />
-                            </div>
-                            <div class="et_b-card-subcontainer2">
-                                <h4 class="et_b-subcontainer2-heading1">New album out now</h4>
-                                <h6 class="et_b-subcontainer2-heading2">By Alan Walker</h6>
-                            </div>
-                            <div class="et_b-card-subcontainer3">
-                                <p class="et_b-subcontainer3-para">Some of his top releases comprises lily, Alone,
-                                    Darkside, Faded, Sing
-                                    me
-                                    to
-                                    sleep, On my way etc.</p>
-                            </div>
-                            <div class="et_b-card-subcontainer4">
-                                <div class="et_b-subcontainer4-action-buttons">
-                                    <button class="et_action-buttons">READ</button>
-                                    <button class="et_action-buttons">BOOKMARK</button>
-                                </div>
-                                <div class="et_b-subcontainer4-icon-buttons">
-                                    <button class="et_icon-buttons"><i
-                                            class="far fa-heart"><span>like</span></i></button>
-                                    <button class="et_icon-buttons"><i
-                                            class="fas fa-share-alt"><span>share</span></i></button>
-                                    <button class="et_icon-buttons"><i class="fas fa-ellipsis-v"><span>more
-                                                options</span></i></button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- basic component1 ends -->
+                    <p class="t-4"><span class="fw-4">Demo:</span></p>
+                    <div class="demo-container">
+                        <h1>Heading1</h1>
+                        <h2>Heading2</h2>
+                        <h3>Heading3</h3>
+                        <h4>Heading4</h4>
+                        <h5>Heading5</h5>
+                        <h6>Heading6</h6>
                     </div>
 
-                    <h4 class="fw-2 t-3">Badge cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
+                    <p class="t-4">Below is the code snippet for above demo.</p>
 
-                    <div class="cards-w-badges-container">
-                        <!-- cards with badges type2 start here -->
-                        <div class="card-w-badge-type2 card-w-badge b-rad1">
-                            <i class="far fa-heart"></i>
-
-                            <div class="card-w-badge-subcontainer1">
-                            </div>
-                            <div class="card-w-badge-subcontainer2">
-                                <div class="product-description">
-                                    <div class="card-title fw-4">Nike</div>
-                                    <div class="card-subtitle">Comfortable shoes for men</div>
-                                </div>
-                                <div class="card-product-price fw-3">
-                                    <div>
-                                        <span class="p-mrp fw-1">1000</span>
-                                        <span class="p-discounted-price">₹900</span>
-                                    </div>
-                                    <div class="p-dicount">90% off</div>
-                                </div>
-                            </div>
-                            <div class="card-w-badge-subcontainer3">
-                                <button class="et_ss-btn action-color t-4 btn">Add To Cart</button>
-                                <button class="et_so-btn action-color t-4 btn">Buy Now</button>
-                            </div>
-                        </div>
-                        <!-- cards with badges type2 end here -->
-                    </div>
-
-                    <h4 class="fw-2 t-3">Dismissible cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
-
-                    <div class="et_card-wd-container">
-                        <!-- card with dismiss type2 start here -->
-                        <div class="et_card-dismiss-type2 card-wd-vertical-template">
-                            <div class="et_card-wd-section1">
-                                <img class="et_circular-avatar l-avatar b-rad4" src="/Images/avatar.jpeg"
-                                    alt="circular avatar" />
-                                <div>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </div>
-                            </div>
-                            <div class="et_card-wd-section2">
-                                <div>
-                                    <h3>Title</h3>
-                                    <h4 class="fw-1">Subtitle</h4>
-                                </div>
-                                <div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut
-                                        labore et dolore magna aliqua. </p>
-                                </div>
-                            </div>
-                            <div class="et_card-dismiss-btn"><i class="fas fa-times"></i></div>
-                        </div>
-                        <!-- card with dismiss type2 end here -->
-                    </div>
-
-                    <h4 class="fw-2 t-3">Text overlay cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
-
-                    <div class="et_card-wto-container">
-                        <!-- vertical card with text overlay start here -->
-                        <div class="et_vertical-shopping-card-wto b-rad1">
-                            <div class="et_vertical-shopping-card-wto-innercontainer1 b-rad1">
-                                <div class="et_shopping-card-wto-innercontainer1-subcontainer">
-                                    <h3 class="et_product-brand">adidas</h3>
-                                    <p class="et_product-description">Women's t-shirt</p>
-                                    <p>
-                                        <span class="et_product-original-price">1000</span>
-                                        <span class="et_discounted-price fw-4"> 900</span>
-                                        <span class="et_product-discount fw-4">10% 0ff</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="et_vertical-shopping-card-wto-innercontainer2 b-rad1">
-                                <button class="et_ss-btn action-color btn">Buy Now</button>
-                                <button class="et_so-btn action-color btn">Add To Cart</button>
-                            </div>
-                        </div>
-                        <!-- vertical card with text overlay end here -->
-                    </div>
-
-                    <h4 class="fw-2 t-3">Text only cards</h4>
-                    <p class="t-4"><span class="fw-4">An overview:</span></p>
-
-                    <div class="et_to-cards-container">
-                        <!-- text only card type1 start here -->
-                        <div class="et_to-card-type1">
-                            <div>
-                                <h3>Title</h3>
-                                <h4>Subtitle</h4>
-                            </div>
-                            <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore
-                                    et dolore magna aliqua.</p>
-                            </div>
-                            <div>
-                                <a href="#"><button class="et_link-btn primary-color btn">Link</button></a>
-                                <a href="#"><button class="et_link-btn primary-color btn">Another Link</button></a>
-                            </div>
-                        </div>
-                        <!-- text only card type1 end here -->
-                    </div>
-
-                    <p class="et_how-to-import t-4">For using the same icons or for importing any other from
-                        font-awesome you need to simply copy & paste the code below in
-                        your head file.</p>
                     <div class="i-frame">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fuse.fontawesome.com%252Freleases%252Fv5.5.0%252Fcss%252Fall.css%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520integrity%253D%2522sha384-B4dIYHKNBt8Bc12p%252BWXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S%252BL3BlXeVIU%2522%2520crossorigin%253D%2522anonymous%2522%253E"
-                            style="width: 1024px; height: 246px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EHeading1%253C%252Fh1%253E%250A%253Ch2%253EHeading2%253C%252Fh2%253E%250A%253Ch3%253EHeading3%253C%252Fh3%253E%250A%253Ch4%253EHeading4%253C%252Fh4%253E%250A%253Ch5%253EHeading5%253C%252Fh5%253E%250A%253Ch6%253EHeading6%253C%252Fh6%253E"
+                            style="width: 281px; height: 285px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
 
-                    <p class="et_how-to-import t-4">For making these components work, you need to import the stylesheet.
-                        For doing so, just simply copy & paste the below code in your head tag.</p>
+                    <p class="t-4"><span class="fw-4">Overview:</span></p>
+
+                    <div class="et_simple-ri utility-image">
+                        <img src="/Images/headings.png" class="b-rad2">
+                    </div>
+
+                    <h4 class="fw-2 t-3">Texts</h4>
+                    <p class="t-4">Expeditech UI provides text variable types of utility classes with predefined
+                        font-size and line-height for each of them.</p>
+
+                    <div class="demo-container">
+                        <p class="t-1">para</p>
+                        <p class="t-2">para</p>
+                        <p class="t-3">para</p>
+                        <p class="t-4">para</p>
+                        <p class="t-5">para</p>
+                    </div>
+
+                    <p class="t-4">Below is the code snippet for above demo.</p>
+
                     <div class="i-frame">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Fcomponents%252Findex.css%2522%253E"
-                            style="width: 870px; height: 209px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522t-1%2522%253Epara%253C%252Fp%253E%250A%253Cp%2520class%253D%2522t-2%2522%253Epara%253C%252Fp%253E%250A%253Cp%2520class%253D%2522t-3%2522%253Epara%253C%252Fp%253E%250A%253Cp%2520class%253D%2522t-4%2522%253Epara%253C%252Fp%253E%250A%253Cp%2520class%253D%2522t-5%2522%253Epara%253C%252Fp%253E"
+                            style="width: 396px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="t-4"><span class="fw-4">Overview:</span></p>
+
+                    <div class="et_simple-ri utility-image">
+                        <img src="/Images/texts.png" class="b-rad2">
+                    </div>
+
+                    <h4 class="fw-2 t-3">Gray texts</h4>
+                    <p class="t-4">Expeditech UI provides different shades of gray texts.</p>
+
+                    <div class="demo-container">
+                        <p class="g-t1">shade1</p>
+                        <p class="g-t2">shade2</p>
+                        <p class="g-t3">shade3</p>
+                        <p class="g-t4">shade4</p>
+                        <p class="g-t5">shade5</p>
+                    </div>
+
+                    <p class="t-4">Below is the code snippet for above demo.</p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=396&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522g-t1%2522%253Eshade1%253C%252Fp%253E%250A%253Cp%2520class%253D%2522g-t2%2522%253Eshade2%253C%252Fp%253E%250A%253Cp%2520class%253D%2522g-t3%2522%253Eshade3%253C%252Fp%253E%250A%253Cp%2520class%253D%2522g-t4%2522%253Eshade4%253C%252Fp%253E%250A%253Cp%2520class%253D%2522g-t5%2522%253Eshade5%253C%252Fp%253E"
+                            style="width: 426px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="t-4"><span class="fw-4">Overview:</span></p>
+
+                    <div class="et_simple-ri utility-image">
+                        <img src="/Images/gray-texts.png" class="b-rad2">
+                    </div>
+
+                    <h4 class="fw-2 t-3">Aligned texts</h4>
+                    <p class="t-4">Expeditech UI provides three types of predefined utility classes for text aligning.
+                    </p>
+
+                    <div class="demo-container">
+                        <p class="a-tr">right</p>
+                        <p class="a-tl">left</p>
+                        <p class="a-tc">center</p>
+                    </div>
+
+                    <p class="t-4">Below is the code snippet for above demo.</p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=426&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522a-tr%2522%253Eright%253C%252Fp%253E%250A%253Cp%2520class%253D%2522a-tl%2522%253Eleft%253C%252Fp%253E%250A%253Cp%2520class%253D%2522a-tc%2522%253Ecenter%253C%252Fp%253E"
+                            style="width: 390px; height: 229px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h4 class="fw-2 t-3">Weighted texts</h4>
+                    <p class="t-4">Expeditech UI provides different types of predefined utility classes for weights of
+                        texts.
+                    </p>
+
+                    <div class="demo-container">
+                        <p class="fw-1">bold1</p>
+                        <p class="fw-2">bold2</p>
+                        <p class="fw-3">bold3</p>
+                        <p class="fw-4">bold4</p>
+                        <p class="fw-5">bold5</p>
+                    </div>
+
+                    <p class="t-4">Below is the code snippet for above demo.</p>
+
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=390&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522fw-1%2522%253Ebold1%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fw-2%2522%253Ebold2%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fw-3%2522%253Ebold3%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fw-4%2522%253Ebold4%253C%252Fp%253E%250A%253Cp%2520class%253D%2522fw-5%2522%253Ebold5%253C%252Fp%253E"
+                            style="width: 392px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <p class="et_how-to-import t-4">For using these utilities, copy & paste the below code in your
+                        project.</p>
+                    <div class="i-frame">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=874&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fexpeditech-ui.netlify.app%252Futilities%252Fall-utilities-docs.css%2522%253E"
+                            style="width: 984px; height: 210px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
@@ -439,7 +407,7 @@
                     <p class="t-4"><span class="fw-4">PS:</span> Feedbacks are most welcomed! We believe in providing
                         the user the best experience, taking in account for the user feedbacks! Connect us via social
                         platforms to stay updated.</p>
-                        
+
                 </div>
             </div>
             <!-- main-section content ends here -->
@@ -449,7 +417,7 @@
     </div>
     <!-- main-page ends here -->
 
-    <script src="/components/cards/card-w-dismiss/card-w-dismiss.js" type="text/javascript"></script>
+
     <script src="/components/button/button.js" type="text/javascript"></script>
 </body>
 

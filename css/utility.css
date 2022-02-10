@@ -9,7 +9,7 @@
 /* ---------headings---------- */
 
 h1 {
-    font: 3rem;
+    font-size: 3rem;
     line-height: 4rem;
 }
 
@@ -65,6 +65,42 @@ h6 {
     line-height: 1rem;
 }
 
+/* ---------gray-text----------- */
+
+.g-t1 {
+    color: var(--light-bluish-shade);
+}
+
+.g-t2 {
+    color: var(--lightest-gray);
+}
+
+.g-t3 {
+    color: var(--medium-gray);
+}
+
+.g-t4 {
+    color: var(--light-gray);
+}
+
+.g-t5 {
+    color: var(--dark-gray);
+}
+
+/* ---------align text---------- */
+
+.a-tr {
+    text-align: right;
+}
+
+.a-tl {
+    text-align: left;
+}
+
+.a-tc {
+    text-align: center;
+}
+
 /* ---------typography---------- */
 
 .fw-1 {
@@ -101,36 +137,36 @@ h6 {
     margin: 1rem;
 }
 
-.m-3{
+.m-3 {
     margin: 1.5rem;
 }
 
-.m-4{
+.m-4 {
     margin: 2rem;
 }
 
-.m-5{
+.m-5 {
     margin: 2.5rem;
 }
 
-.m-6{
+.m-6 {
     margin: 4rem;
 }
 
 /* ---------border-radius---------- */
 
-.b-rad1{
-   border-radius: 5px;
+.b-rad1 {
+    border-radius: 5px;
 }
 
-.b-rad2{
+.b-rad2 {
     border-radius: 10px;
 }
 
-.b-rad3{
+.b-rad3 {
     border-radius: 15px;
 }
 
-.b-rad4{
+.b-rad4 {
     border-radius: 999px;
 }
