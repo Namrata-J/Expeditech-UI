@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/components/cards/card-w-text-overlay/card-wto.css">
     <link rel="shortcut icon" type="image/svg" href="/Images/Expeditech-favicon.jpeg">
+    <link rel="stylesheet" type="text/css" href="/components/lists/lists.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <title>Text-overlay cards | Cards | Expeditech UI</title>
+    <title>Lists | Expeditech UI</title>
 </head>
 
 <body>
@@ -36,7 +36,6 @@
         </header>
         <!-- header ends -->
 
-
         <!-- the-main-section starts here -->
         <div class="et_main-section-container">
 
@@ -62,7 +61,7 @@
                         <h4 class="et_sidebar-subtext fw-1 t-4">Components</h4>
                         <nav class="et_sidebar-link-section-nav">
                             <a class="link" href="/components/alert/alert.html">
-                                <span class="et_sidebar-nav-item t-4">Alert</span>
+                                <span class="et_sidebar-nav-item t-4">Alerts</span>
                                 <ul class="et_nav-item-sublist t-4">
                                     <li><a class="link" href="/components/alert/js-alerts/js-alerts.html">js-alerts</a>
                                     </li>
@@ -80,7 +79,7 @@
                                 <span class="et_sidebar-nav-item t-4">Button</span>
                             </a>
                             <a class="link" href="/components/cards/cards.html">
-                                <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                                <span class="et_sidebar-nav-item t-4">Cards</span>
                                 <ul class="et_nav-item-sublist t-4">
                                     <li><a class="link" href="/components/cards/basic-cards/basic-cards.html">Basic
                                             cards</a></li>
@@ -89,7 +88,7 @@
                                     <li><a class="link"
                                             href="/components/cards/card-w-dismiss/card-w-dismiss.html">Dismissible
                                             cards</a></li>
-                                    <li><a class="link active"
+                                    <li><a class="link"
                                             href="/components/cards/card-w-text-overlay/card-wto.html">Text-overlay
                                             Cards</a></li>
                                     <li><a class="link"
@@ -119,7 +118,7 @@
                                 <span class="et_sidebar-nav-item t-4">Grid</span>
                             </a>
                             <a class="link" href="/components/lists/lists.html">
-                                <span class="et_sidebar-nav-item t-4">List</span>
+                                <span class="et_sidebar-nav-item t-4 active">List</span>
                             </a>
                             <a class="link" href="/components/modal/modal.html">
                                 <span class="et_sidebar-nav-item t-4">Modal</span>
@@ -166,7 +165,7 @@
                     </li>
                     <li>
                         <a class="link" href="/components/alert/alert.html">
-                            <span class="et_sidebar-nav-item t-4">Alert</span>
+                            <span class="et_sidebar-nav-item t-4">Alerts</span>
                         </a>
                     </li>
                     <li>
@@ -194,7 +193,7 @@
                     </li>
                     <li>
                         <a class="link" href="/components/cards/cards.html">
-                            <span class="et_sidebar-nav-item t-4 active">Cards</span>
+                            <span class="et_sidebar-nav-item t-4">Cards</span>
                         </a>
                     </li>
                     <li>
@@ -214,7 +213,7 @@
                     </li>
                     <li>
                         <a class="link" href="/components/cards/card-w-text-overlay/card-wto.html">
-                            <span class="et_sidebar-nav-item t-4 active">Text-overlay cards</span>
+                            <span class="et_sidebar-nav-item t-4">Text-overlay cards</span>
                         </a>
                     </li>
                     <li>
@@ -259,7 +258,7 @@
                     </li>
                     <li>
                         <a class="link" href="/components/lists/lists.html">
-                            <span class="et_sidebar-nav-item t-4">List</span>
+                            <span class="et_sidebar-nav-item t-4 active">List</span>
                         </a>
                     </li>
                     <li>
@@ -288,106 +287,78 @@
             <!-- main-section content starts here -->
             <div class="et_main-section-content-container">
                 <div class="et_main-section-content">
-                    <!-- card with text overlay start here -->
 
-                    <h3 class="fw-2 t-3">Cards</h3>
-                    <p class="t-4">Cards contain content and actions about a single subject. Cards are surfaces that
-                        display content and actions on a single topic. They are easy to scan for relevant and actionable
-                        information.</p>
+                    <!-- lists start here -->
+                    <h3 class="fw-2 t-3">Lists</h3>
+                    <p class="t-4">Lists are a fundamental part of HTML! They are useful in things like blog posts for
+                        listing out steps, recipes for listing ingredients, or items in a navigation menu. Not only are
+                        they an opportunity for styling, but they have accessibility implications. For example, the
+                        number of items in a list is announced in a screen reader to give some context to the list.</p>
 
-                    <h4 class="fw-2 t-3">Card with text overlay</h4>
-                    <p class="t-4">Expeditech UI provides user with varities of text overlay cards, i.e. <span
-                            class="fw-3 span-color-for-varities">vertical card with text overlay, horizontal card with
-                            text overlay, vertical shopping card with text overlay.</span></p>
+                    <p class="t-4"><span class="fw-4">When to use:</span> Useful when you need to show a chronological
+                        sequence of events.</p>
 
-                    <h4 class="fw-2 t-3">Vertical card with text overlay</h4>
+                    <p class="t-4">Expeditech UI provides user with two varities of lists, i.e.<span
+                            class="fw-3 span-color-for-varities"> normal and stacked lists.</span>.</p>
 
-                    <div class="et_card-wto-container">
-                        <!-- vertical card with text overlay start here -->
-                        <div class="et_vertical-card-wto card-wto b-rad1">
-                            <div class="et_vertical-card-wto-innerContainer card-wto-innercontainer b-rad1">
-                                <h3>Title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore
-                                    et dolore magna aliqua.</p>
-                                <button class="et_ss-btn red-color btn b-rad1">Learn more</button>
-                            </div>
+                    <h4 class="fw-2 t-3">Normal Lists</h4>
+                    <div class="et_lists-container">
+                        <div class="et_normal-lists-container lists-container">
+                            <h3>Normal lists</h3>
+
+                            <!-- Normal lists start here -->
+                            <ol class="et_normal-list b-rad1">
+                                <li>item 1 </li>
+                                <li>item 2 </li>
+                                <li>item 3 </li>
+                                <li>item 4 </li>
+                            </ol>
+                            <!-- Normal lists end here -->
+
                         </div>
-                        <!-- vertical card with text overlay end here -->
                     </div>
 
-                    <p class="t-4">For using above component in your project, copy & paste the below html template.
-                    </p>
+                    <p class="t-4">For normal lists, copy & paste the below html template to use these
+                        components in your projects.</p>
 
                     <div class="i-frame">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_vertical-card-wto%2520card-wto%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_vertical-card-wto-innerContainer%2520card-wto-innercontainer%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%2520eiusmod%2520tempor%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520red-color%2520btn%2520b-rad1%2522%253ELearn%2520more%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                            style="width: 879px; height: 322px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=984&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522et_normal-list%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%253Cli%253Eitem%25201%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Eitem%25202%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Eitem%25203%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253Eitem%25204%2520%253C%252Fli%253E%250A%253C%252Fol%253E%250A"
+                            style="width: 984px; height: 303px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
 
-                    <h4 class="fw-2 t-3">Horizontal card with text overlay</h4>
-                    <p class="t-4">It has the same layout as of vertical card with text overlay. The only difference is
-                        with the styling.
-                    </p>
-
-                    <div class="et_card-wto-container">
-                        <!-- horizontal card with text overlay start here -->
-                        <div class="et_horizontal-card-wto card-wto b-rad1">
-                            <div class="et_horizontal-card-wto-innerContainer card-wto-innercontainer b-rad1">
-                                <h3>Title</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore
-                                    et dolore magna aliqua.</p>
-                                <button class="et_ss-btn red-color btn b-rad1">Learn more</button>
-                            </div>
-                        </div>
-                        <!-- horizontal card with text overlay end here -->
-                    </div>
-
-                    <p class="t-4">For using above component in your project, copy & paste the below html template.
-                    </p>
-
-                    <div class="i-frame">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_horizontal-card-wto%2520card-wto%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_horizontal-card-wto-innerContainer%2520card-wto-innercontainer%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%2520eiusmod%2520tempor%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520incididunt%2520ut%2520labore%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520et%2520dolore%2520magna%2520aliqua.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520red-color%2520btn%2520b-rad1%2522%253ELearn%2520more%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                            style="width: 904px; height: 340px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-
-                    <h4 class="fw-2 t-3">Vertical shopping card with text overlay</h4>
-
-                    <div class="et_card-wto-container">
-                        <!-- vertical card with text overlay start here -->
-                        <div class="et_vertical-shopping-card-wto b-rad1">
-                            <div class="et_vertical-shopping-card-wto-innercontainer1 b-rad1">
-                                <div class="et_shopping-card-wto-innercontainer1-subcontainer">
-                                    <h3 class="et_product-brand">adidas</h3>
-                                    <p class="et_product-description">Women's t-shirt</p>
-                                    <p>
-                                        <span class="et_product-original-price">1000</span>
-                                        <span class="et_discounted-price fw-4"> 900</span>
-                                        <span class="et_product-discount fw-4">10% 0ff</span>
-                                    </p>
+                    <h4 class="fw-2 t-3">Stacked Lists</h4>
+                    <div class="et_lists-container">
+                        <div class="et_stacked-lists-container lists-container">
+                            <h3>Stacked lists</h3>
+                            <!-- Stacked lists start here -->
+                            <ol class="et_stacked-list b-rad1">
+                                <div>
+                                    <li>item 1</li>
                                 </div>
-                            </div>
-                            <div class="et_vertical-shopping-card-wto-innercontainer2 b-rad1">
-                                <button class="et_ss-btn action-color btn">Buy Now</button>
-                                <button class="et_so-btn action-color btn">Add To Cart</button>
-                            </div>
+                                <div>
+                                    <li>item 2</li>
+                                </div>
+                                <div>
+                                    <li>item 3</li>
+                                </div>
+                                <div>
+                                    <li>item 4</li>
+                                </div>
+                            </ol>
+                            <!-- Stacked lists end here -->
                         </div>
-                        <!-- vertical card with text overlay end here -->
                     </div>
 
-                    <p class="t-4">For using above component in your project, copy & paste the below html template.
-                    </p>
+                    <p class="t-4">For stacked lists, copy & paste the below html template to use these
+                        components in your projects.</p>
 
                     <div class="i-frame">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522et_vertical-shopping-card-wto%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_vertical-shopping-card-wto-innercontainer1%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_shopping-card-wto-innercontainer1-subcontainer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522et_product-brand%2522%253Eadidas%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522et_product-description%2522%253EWomen%27s%2520t-shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522et_product-original-price%2522%253E1000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522et_discounted-price%2520fw-4%2522%253E%2520900%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522et_product-discount%2520fw-4%2522%253E10%2525%25200ff%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522et_vertical-shopping-card-wto-innercontainer2%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_ss-btn%2520action-color%2520btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522et_so-btn%2520action-color%2520btn%2522%253EAdd%2520To%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                            style="width: 761px; height: 489px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=bw&l=auto&width=984&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522et_stacked-list%2520b-rad1%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fol%253E%250A"
+                            style="width: 984px; height: 452px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
@@ -396,13 +367,15 @@
                         the user the best experience, taking in account for the user feedbacks! Connect us via social
                         platforms to stay updated.</p>
 
-                    <!-- card with text overlay end here -->
+                    <!-- lists end here -->
+
                 </div>
             </div>
             <!-- main-section content ends here -->
 
         </div>
         <!-- the-main-section ends here -->
+
     </div>
     <!-- main-page ends here -->
 
