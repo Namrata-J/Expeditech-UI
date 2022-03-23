@@ -1,0 +1,47 @@
+@import url(/css/base.css);
+@import url(/css/utility.css);
+@import url(/documentation/documentation.css);
+
+/* lists start here */
+
+.et_lists-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.et_lists-container h3 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Normal lists start here */
+.lists-container {
+    align-items: center;
+    background-color: var(--white-color);
+    border: 1px solid var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 1rem;
+    margin: 1rem 0rem;
+    width: 100%;
+}
+
+.et_normal-list {
+    background-color: var(--primary-color);
+    padding: 0.5rem 2rem;
+}
+/* Normal lists end here */
+
+/* Stacked lists start here */
+.et_stacked-list div {
+    background-color: var(--primary-color);
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    padding: 0.4rem 2rem;
+}
+/* Stacked lists end here */
+
+/* lists end here */
