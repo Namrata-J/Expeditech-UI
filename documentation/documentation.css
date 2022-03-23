@@ -134,6 +134,16 @@ a.active {
 /* the-main-section ends here */
 /* main-page ends here */
 
+.et_features-img {
+    width: 100%;
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+.et_features-img img {
+    width: 60%;
+}
+
 
 @media only screen and (max-width: 900px) {
     .et_main-section-sidebar-container {
@@ -151,11 +161,17 @@ a.active {
     .fa-links-btn {
         display: inline-block;
     }
+    .et_features-img img {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 500px){
     .et_main-section-content {
         padding: 4rem 0.8rem;
+        width: 100%;
+    }
+    .et_features-img img {
         width: 100%;
     }
 }
