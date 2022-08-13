@@ -1,9 +1,9 @@
-## Expeditech-UI
-Hey there! Thanks for visiting Expeditech UI. We are super thrilled to launch our component library.
-
-**Expeditech UI** is a fast and furious CSS component library made using reusable classes. And as it's name implies it gets your tasks done faster and sooner.
-
-<img src="https://github.com/Namrata-J/Expeditech-UI/blob/dev/Images/Expeditech%20UI-logos.jpeg" alt="drawing" width="200"/>
+<p align="center">
+   <img src="https://github.com/Namrata-J/Expeditech-UI/blob/dev/Images/Expeditech%20UI-logos.jpeg" alt="drawing" width="400"/>
+</p>
+<p align="center">
+[Expeditech UI](https://expeditech-ui.netlify.app/)
+</p>
 
 ### Tech stack
 * HTML5
