@@ -6,44 +6,74 @@
 </p>
 
 ### Tech stack
-* HTML5
-* CSS3
-* Vanilla JS
+<img src="https://user-images.githubusercontent.com/82696858/184472725-bc1abb53-f984-480a-b9be-556d608521c7.png" width="50"/>  <img src="https://user-images.githubusercontent.com/82696858/184472822-1c89a35e-d58f-4e3b-ae11-7b543a30acde.png" width="45"/>  <img src="https://user-images.githubusercontent.com/82696858/184472976-3bdd2cb6-bfa4-4de5-878c-b4f4fccfd8ee.png" width="45"/>
 
 ### Features
-* provides reusable or utility classes making development faster and easier.
-* easy to use, not much complex.
-* components are responsive.
-* provides flexibility.
-* layouts are very much consistent in its design.
-* has "border-box" box-sizing.
+* reusable utility classes
+* responsive 10+ components with previews
+* clean ui
+* easy to understand
 
-### Installation
-Installation process of Expeditech UI is easy. Just import the below links accordingly.
+### Table Of Contents<a name="tableOfContents"></a>
+1. [Quick Start](#quickStart)
+2. [Deployment Status](#status)
+3. [Components](#component)
+4. [Shades used](#shades)
+5. [Utility classes](#utility)
+6. [Social Links](#social)
+7. [Contribution guidlines](#contribution)
 
-For making these components work, you need to import the stylesheet. Just simply copy & paste the below code in your head tag.
+<hr>
 
+## Quick Start<a id="quickStart"></a>
+To load Expeditech UI components CSS in your project, copy & paste the below ```<Link>``` tag into your head before all the stylesheets.
+
+HTML
 ```
 <link rel="stylesheet" href="https://expeditech-ui.netlify.app/components/index.css">
 ```
 
-For using the same icons or for importing any other from font-awesome you need to simply copy & paste the code below in your head file.
-
+CSS
 ```
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+@import url("https://expeditech-ui.netlify.app/components/index.css")
 ```
 
-### Components provided
-Provides 10+ components.
-#### Alerts
+For font-awesome icons.
+
+```
+<link 
+  rel="stylesheet" 
+  href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+```
+
+## Deployment Status<a name="status"></a>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/377a9306-9b0d-4b84-bb64-6cfa8f039b8c/deploy-status)](https://app.netlify.com/sites/expeditech-ui/deploys)
+
+[To know more about status badges visit site -->](https://docs.netlify.com/monitor-sites/status-badges/?_ga=2.239245701.74730842.1660376495-236702144.1656589951)
+
+<hr>
+
+## Components<a name="component"></a>
+
+<hr>
+
+## Alerts
 Provides two kinds of alerts.
-  #### - dismissible alerts(js alerts)
-  ![image](https://user-images.githubusercontent.com/82696858/183887527-d7bd8f8d-6379-4823-97a0-8e1c5764843f.png)
+1. dismissible alerts(js alerts)
+2. no js alerts
   
-  ![image](https://user-images.githubusercontent.com/82696858/183883333-a4ffb9ef-0a93-4528-a084-c6ff2e4d0dfa.png)
+  simple dismissible alert<br>
+  ![image](https://user-images.githubusercontent.com/82696858/184475500-4eec30b8-cdd1-47e3-a68d-14d57ca1c17c.png)
   
-  JS being used for dismissible alerts:
+  advanced dismissible alert<br>
+  ![image](https://user-images.githubusercontent.com/82696858/184475586-b2a1f79b-ec0d-44fe-9d04-3fa0823bf125.png)
+  
+  no-js alert<br>
+  ![image](https://user-images.githubusercontent.com/82696858/184475645-893ec5de-2bdb-41b7-ac3c-2cccdb5fd6f2.png)
+  
+  JS for dismissible alerts:
   ```
   var dismissBtn = document.querySelectorAll(".fa-times-circle");
 var ignoreBtn = document.querySelector(".action-2");
@@ -60,29 +90,20 @@ ignoreBtn.addEventListener("click", ()=>{
 })
 ```
 
-  #### - no js alerts
-  ![image](https://user-images.githubusercontent.com/82696858/183887720-97186b7f-0dd3-4182-b2c9-3504605bb17b.png)
+<hr>
 
+## Avatar
+<img src="https://user-images.githubusercontent.com/82696858/184475710-d82be011-5a09-470e-a915-486b3c25c148.png" width="60"/><img src="https://user-images.githubusercontent.com/82696858/184475766-ba0af66b-b743-459f-a6bc-9491f33ae17d.png" width="70"/>
 
-#### Avatar
-![image](https://user-images.githubusercontent.com/82696858/183888147-507c9fdf-5431-4e93-a5e5-dbcf9d2d9941.png)
+- For changing the size of avatar, you can try using classes such as xs-avatar, s-avatar, m-avatar & l-avatar.
+- To change it to rounded avatar, just change the utility class b-rad4 ---> b-rad2
 
-For changing the size of avatar, you can try using classes such as xs-avatar, s-avatar, m-avatar & l-avatar.
+<hr>
 
-![image](https://user-images.githubusercontent.com/82696858/183887897-2ff4ee0c-1a26-466b-bd9b-e5c65a37c4f7.png)
+## Badge
+<img src="https://user-images.githubusercontent.com/82696858/184475900-048845d4-ddd1-46d1-bda6-9c5c4309e23a.png"><img src="https://user-images.githubusercontent.com/82696858/184475924-65e14331-01a9-47e9-9da2-e8ce693890fe.png"><img src="https://user-images.githubusercontent.com/82696858/184475966-e000cca3-d445-4136-8131-5434b246f24b.png">
 
-To change it to rounded avatar, just change the utility class b-rad4 ---> b-rad2
-
-![image](https://user-images.githubusercontent.com/82696858/183887964-f82cd4c3-3355-441b-b994-90cb03495758.png)
-
-#### Badge
-![image](https://user-images.githubusercontent.com/82696858/183888906-3e63db89-4634-4f00-a0e3-46937a5545ac.png)
-
-![image](https://user-images.githubusercontent.com/82696858/183889205-c26205e0-53aa-4b0c-ba5b-d467a39a820d.png)
-
-![image](https://user-images.githubusercontent.com/82696858/183889356-80e007f3-8e2f-4a2d-809f-34b2bdb584e9.png)
-
-JS code for the above button with toggling badge
+JS code for the above hide button with toggling badge
 ```
 var toogleBtn = document.querySelectorAll(".toggle-btn");
 
@@ -96,13 +117,10 @@ toogleBtn.forEach(eachBtn =>{
     })
 });
 ```
+<hr>
 
-#### Button
-![image](https://user-images.githubusercontent.com/82696858/183891218-5569f150-45e1-47b3-a4ad-6ab52b9c5094.png)
-
-![image](https://user-images.githubusercontent.com/82696858/183897814-455cf88b-1664-4ad9-90b9-a3f204ca613b.png)
-
-![image](https://user-images.githubusercontent.com/82696858/183897896-b155918c-c303-4e95-a6fb-71a1c640b227.png)
+## Button
+<img src="https://user-images.githubusercontent.com/82696858/184476044-52367ad3-5482-4679-85cc-78195593cacb.png"><img src="https://user-images.githubusercontent.com/82696858/184476139-9401b20f-3203-46fa-a211-7ab49ebd3bd4.png">
 
 JS for floating button component
 ```
@@ -142,18 +160,18 @@ floatingBtn2.addEventListener("click", () =>{
 })
 ```
 
+<hr>
 
-#### Cards
+## Cards
 Provides five types of cards.
-  #### - Basic cards
-  ![image](https://user-images.githubusercontent.com/82696858/183891631-ea6a7195-50b9-4a44-a21f-95eed7f31752.png)
-
-  #### - Badge cards
-  ![image](https://user-images.githubusercontent.com/82696858/183891795-4bb60741-3e32-4ed2-b164-f85c443ac94d.png)
-
-  #### - Dismissible cards
-  ![image](https://user-images.githubusercontent.com/82696858/183891910-d2aba346-61bb-486d-93d3-dde08e455c1c.png)
-
+  1. Basic cards
+  2. Badge cards
+  3. Dismissible cards
+  4. Text-overlay cards
+  5. Text-only cards
+  
+  <img src="https://user-images.githubusercontent.com/82696858/183892415-184bafdb-fb8c-4f53-9fbd-269413e0e08b.png" height="200">
+  
 JS for dismissible card
 ```
   var dismissBtn = document.querySelectorAll(".et_card-dismiss-btn");
@@ -165,22 +183,21 @@ dismissBtn.forEach(eachBtn => {
 })
 ```
 
-  #### - Text-overlay cards
-  ![image](https://user-images.githubusercontent.com/82696858/183892272-ef322866-50df-4f7e-a9a0-c1353fdc4883.png)
+<hr>
 
-  #### - Text-only cards
-  ![image](https://user-images.githubusercontent.com/82696858/183892415-184bafdb-fb8c-4f53-9fbd-269413e0e08b.png)
-
-
-#### Image
-![image](https://user-images.githubusercontent.com/82696858/183892695-db36c24e-4ca9-4019-a611-60d21639ce4b.png)
+## Image
+<img src="https://user-images.githubusercontent.com/82696858/183892695-db36c24e-4ca9-4019-a611-60d21639ce4b.png" width="100">
 
 To make image less circular change the border-radius utility class.
 
-#### Input
-![image](https://user-images.githubusercontent.com/82696858/183895117-4169c140-5476-4567-aba5-30af589551cf.png)
+<hr>
 
-#### Snackbar
+## Input
+![image](https://user-images.githubusercontent.com/82696858/184479349-20853e6a-902f-47be-8ca0-7cd8c322e692.png)
+
+<hr>
+
+## Snackbar
 ![image](https://user-images.githubusercontent.com/82696858/183895397-8f7c0767-56d9-408f-b633-026e0740ef10.png)
 
 JS for dismissible snackbars
@@ -221,8 +238,12 @@ closeBtns.forEach(eachBtn => {
 })
 ```
 
-#### Chip
+<hr>
+
+## Chip
 ![image](https://user-images.githubusercontent.com/82696858/183895824-6d4a174b-0d1f-4510-9fc7-9bdfc2f5831e.png)
+
+![image](https://user-images.githubusercontent.com/82696858/183896027-b3380b38-ca5b-4bbf-81d8-24e8e47906aa.png)
 
 JS for automated chips
 ```
@@ -282,8 +303,6 @@ function chipClickHandler(event){
     chips.removeChild(event.currentTarget);
  }
  ```
- 
- ![image](https://user-images.githubusercontent.com/82696858/183896027-b3380b38-ca5b-4bbf-81d8-24e8e47906aa.png)
 
 JS for drag and drop feature
 ```
@@ -313,8 +332,10 @@ container.addEventListener('drop', (e) => {
 });
 ```
 
-#### Dialog
-![image](https://user-images.githubusercontent.com/82696858/183896309-d65818fe-6392-4f3c-b28a-c5400236a21e.png)
+<hr>
+
+## Dialog
+![image](https://user-images.githubusercontent.com/82696858/184479450-f4d1fd01-250b-4b73-88d0-beff517c7a64.png)
 
 JS for dialog component
 ```
@@ -359,19 +380,24 @@ confirmationDialogCloseBtns.forEach(eachBtn => {
 })
 ```
 
-#### Rating
-![image](https://user-images.githubusercontent.com/82696858/183896528-72773f6e-03a0-4b09-bc68-457f625bda58.png)
+<hr>
 
+## Rating
+![image](https://user-images.githubusercontent.com/82696858/184479524-b322bce3-bfd4-4bbc-b60a-590d46ee7883.png)
 
-#### Grid
+<hr>
+
+## Grid
 ![image](https://user-images.githubusercontent.com/82696858/183896720-444ab14a-4ab1-4324-9160-1471f059d662.png)
 
+<hr>
 
-#### List 
-![image](https://user-images.githubusercontent.com/82696858/183896808-b26b4ebf-caa1-4ef5-82ec-97324b681f19.png)
+## List 
+![image](https://user-images.githubusercontent.com/82696858/184479580-6597331d-eeec-4ac6-bccf-3c4db19588a8.png)
 
+<hr>
 
-#### Modal
+## Modal
 ![image](https://user-images.githubusercontent.com/82696858/183896935-a2684a8c-15a5-404f-be75-9aa0ee853588.png)
 
 JS for modal component
@@ -393,11 +419,14 @@ modalActionBtns.forEach(btn => {
 showModalBtn.addEventListener("click", showModal);
 ```
 
-#### Navigation
+<hr>
+
+## Navigation
 ![image](https://user-images.githubusercontent.com/82696858/183897166-0f4fb1f6-79b0-4f87-8d28-7438a7cad991.png)
 
+<hr>
 
-### Shades used
+## Shades used<a name="shades"></a>
 
     --primary-color: rgb(241, 237, 225);
     --secondary-color: rgb(33, 59, 116);
@@ -420,8 +449,9 @@ showModalBtn.addEventListener("click", showModal);
     --light-bluish-shade: rgb(234, 237, 243);
     --dark-yellow: rgb(250, 205, 6);
     
+<hr>  
   
-### Utility classes
+## Utility classes<a name="utility"></a>
 
 ### Typograhy utility classes
 #### Headings
@@ -627,16 +657,23 @@ Gives you utility classes for implementing border-radius.
 }
 ```
 
-
-
+<hr>
 
 Expeditech UI takes accountability for user feedbacks, we believe in providing the user the best experience.<br>
 Do let us know any recommendations on further improvements.
 
-
-### Connect to us via social platforms
+## Connect to us via social platforms<a name="social"></a>
 [Twitter](https://twitter.com/muse_the_coder) <br>
 [LinkedIn](https://www.linkedin.com/in/namrata-jain-2b6203216/) <br>
 [Instagram](https://www.instagram.com/the_dexterous_me/?r=nametag) <br>
 [Gmail](mailto: namratajain29001@gmail.com) <br>
+
+<hr>
+
+## Contribution guidlines<a name="contribution"></a>
+For contributing to expeditech UI,
+1. Clone & Fork the repo.
+2. Make a feature branch from dev.
+3. Commit and push those changes.
+4. Raise the PR(pull request).
 
