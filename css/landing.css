@@ -3,7 +3,7 @@
 .et_landing-page-header {
     background-color: var(--primary-color);
     box-shadow: 0px 0px 5px -3px var(--black);
-    height: 4.2rem;
+    height: 10vh;
     padding: 0.5rem 3rem;
 }
 
@@ -34,7 +34,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 80vh;
 }
 
 .et_landing-page-inner-container1 {
@@ -93,7 +93,7 @@
 
 @media only screen and (max-width: 510px){
     .et_landing-page-header{
-        height: 3.8rem;
+        height: 8.5vh;
         padding: 0.3rem 1rem;
     }
     .et_landing-page-inner-container1{
@@ -118,7 +118,7 @@
 
 @media only screen and (max-width: 350px){
     .et_landing-page-header{
-        height: 3.5rem;
+        height: 7.5vh;
         padding: 0.1rem;
     }
     .et_inner-container-child2 {

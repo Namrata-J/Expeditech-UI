@@ -17,9 +17,11 @@
 
 /* main-section sidebar starts here */
 .et_main-section-sidebar-container {
-    background-color: var(--lightest-gray);
-    border-right: 1px solid var(--light-gray);
+    background-color: var(--primary-color);
+    border-right: 1px solid var(--lightest-gray);
     color: var(--light-gray);
+    height: 90vh;
+    overflow-y: scroll;
     padding: 2rem 1rem;
     width: 12rem;
 }
@@ -66,6 +68,7 @@ a.active {
     display: none;
     margin: 1rem;
     position: absolute;
+    z-index: 2;
 }
 
 .fa-links-btn h3,
@@ -74,16 +77,16 @@ a.active {
     text-align: center;
 }
 
-.fa-links-btn li li{
+.fa-links-btn li li {
     text-align: center;
 }
 
-.fa-links-btn ul{
+.fa-links-btn ul {
     height: 500px;
     overflow-y: scroll;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -93,43 +96,54 @@ a.active {
     align-items: center;
     display: flex;
     flex-direction: column;
+    height: 90vh;
+    overflow-y: scroll;
 }
-.et_main-section-content h3{
+
+.et_main-section-content h3 {
     font-size: 1.7rem;
 }
 
-.et_main-section-content h4{
+.et_main-section-content h4 {
     font-size: 1.3rem;
     padding: 1.5rem 0rem 0rem 0rem;
 }
 
-.et_main-section-content{
+.et_main-section-content {
     padding: 3rem 0;
     width: 80%;
 }
-.et_main-section-content p{
+
+.et_main-section-content p {
     padding: 0.1rem 0;
 }
-.overview{
+
+.overview {
     margin: 1rem 0rem;
 }
-.et_how-to-import{
+
+.et_how-to-import {
     margin-top: 1.5rem;
 }
-.i-frame{
+
+.i-frame {
     margin: 1rem 0;
     overflow: scroll;
     text-align: center;
 }
-.span-color-for-varities{
+
+.span-color-for-varities {
     color: var(--green);
 }
-.span-color-for-class{
+
+.span-color-for-class {
     color: var(--light-red);
 }
-.span-color-for-property{
+
+.span-color-for-property {
     color: var(--light-green);
 }
+
 /* main-section content ends here */
 /* the-main-section ends here */
 /* main-page ends here */
@@ -142,6 +156,11 @@ a.active {
 
 .et_features-img img {
     width: 60%;
+}
+
+.et_stacked-list div {
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 3px 0px var(--lightest-gray);
 }
 
 
@@ -158,20 +177,27 @@ a.active {
         padding: 4rem 1rem;
         width: 90%;
     }
+
     .fa-links-btn {
         display: inline-block;
     }
+
     .et_features-img img {
         width: 80%;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 510px) {
     .et_main-section-content {
         padding: 4rem 0.8rem;
         width: 100%;
     }
+
     .et_features-img img {
         width: 100%;
+    }
+
+    .et_main-section-content-container {
+        height: 88.5vh;
     }
 }
