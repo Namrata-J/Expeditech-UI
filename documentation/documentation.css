@@ -82,7 +82,7 @@ a.active {
 }
 
 .fa-links-btn ul {
-    height: 500px;
+    height: 75vh;
     overflow-y: scroll;
 }
 
