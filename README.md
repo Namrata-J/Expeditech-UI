@@ -2,7 +2,7 @@
    <img src="https://user-images.githubusercontent.com/82696858/185879567-d3cab6c4-6a29-4a80-9096-e6111d69441b.png" alt="drawing" width="400"/>
 </p>
 
-                                [Expeditech UI](https://expeditech-ui.netlify.app/)
+                              [Expeditech UI](https://expeditech-ui.netlify.app/)
 
 ### Tech stack
 <img src="https://user-images.githubusercontent.com/82696858/184472725-bc1abb53-f984-480a-b9be-556d608521c7.png" width="50"/>  <img src="https://user-images.githubusercontent.com/82696858/184472822-1c89a35e-d58f-4e3b-ae11-7b543a30acde.png" width="45"/>  <img src="https://user-images.githubusercontent.com/82696858/184472976-3bdd2cb6-bfa4-4de5-878c-b4f4fccfd8ee.png" width="45"/>
