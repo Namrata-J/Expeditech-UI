@@ -2,6 +2,12 @@
    <img src="https://user-images.githubusercontent.com/82696858/185879567-d3cab6c4-6a29-4a80-9096-e6111d69441b.png" alt="drawing" width="400"/>
 </p>
 
+![image](https://img.shields.io/github/issues/Namrata-J/Expeditech-UI) ![image](https://img.shields.io/github/forks/Namrata-J/Expeditech-UI) ![image](https://img.shields.io/github/stars/Namrata-J/Expeditech-UI)
+
+
+
+
+
                               [Expeditech UI](https://expeditech-ui.netlify.app/)
 
 ### Tech stack
@@ -58,19 +64,26 @@ For font-awesome icons.
 
 <hr>
 
-## Alerts
+1. [Alerts](#alerts)
+2. [Avatar](#avatar)
+3. [Badge](#badge)
+4. [Button](#button)
+5. [Cards](#cards)
+6. [Image](#image)
+7. [Input](#input)
+8. [Snackbar](#snackbar)
+9. [Chip](#chip)
+10. [Dialog](#dialog)
+11. [Rating](#rating)
+12. [Grid](#grid)
+13. [List](#list)
+14. [Modal](#modal)
+15. [Navigation](#navigation)
+
+## Alerts<a name="alerts"></a>
 Provides two kinds of alerts.
 1. dismissible alerts(js alerts)
 2. no js alerts
-  
-  simple dismissible alert<br>
-  ![image](https://user-images.githubusercontent.com/82696858/184475500-4eec30b8-cdd1-47e3-a68d-14d57ca1c17c.png)
-  
-  advanced dismissible alert<br>
-  ![image](https://user-images.githubusercontent.com/82696858/184475586-b2a1f79b-ec0d-44fe-9d04-3fa0823bf125.png)
-  
-  no-js alert<br>
-  ![image](https://user-images.githubusercontent.com/82696858/184475645-893ec5de-2bdb-41b7-ac3c-2cccdb5fd6f2.png)
   
   JS for dismissible alerts:
   ```
@@ -91,18 +104,15 @@ ignoreBtn.addEventListener("click", ()=>{
 
 <hr>
 
-## Avatar
-<img src="https://user-images.githubusercontent.com/82696858/184475710-d82be011-5a09-470e-a915-486b3c25c148.png" width="60"/><img src="https://user-images.githubusercontent.com/82696858/184475766-ba0af66b-b743-459f-a6bc-9491f33ae17d.png" width="70"/>
-
+## Avatar<a name="avatar"></a>
 - For changing the size of avatar, you can try using classes such as xs-avatar, s-avatar, m-avatar & l-avatar.
 - To change it to rounded avatar, just change the utility class b-rad4 ---> b-rad2
 
 <hr>
 
-## Badge
-<img src="https://user-images.githubusercontent.com/82696858/184475900-048845d4-ddd1-46d1-bda6-9c5c4309e23a.png"><img src="https://user-images.githubusercontent.com/82696858/184475924-65e14331-01a9-47e9-9da2-e8ce693890fe.png"><img src="https://user-images.githubusercontent.com/82696858/184475966-e000cca3-d445-4136-8131-5434b246f24b.png">
+## Badge<a name="badge"></a>
 
-JS code for the above hide button with toggling badge
+JS code for hide button with toggling badge
 ```
 var toogleBtn = document.querySelectorAll(".toggle-btn");
 
@@ -118,8 +128,7 @@ toogleBtn.forEach(eachBtn =>{
 ```
 <hr>
 
-## Button
-<img src="https://user-images.githubusercontent.com/82696858/184476044-52367ad3-5482-4679-85cc-78195593cacb.png"><img src="https://user-images.githubusercontent.com/82696858/184476139-9401b20f-3203-46fa-a211-7ab49ebd3bd4.png">
+## Button<a name="button"></a>
 
 JS for floating button component
 ```
@@ -161,15 +170,13 @@ floatingBtn2.addEventListener("click", () =>{
 
 <hr>
 
-## Cards
+## Cards<a name="cards"></a>
 Provides five types of cards.
   1. Basic cards
   2. Badge cards
   3. Dismissible cards
   4. Text-overlay cards
   5. Text-only cards
-  
-  <img src="https://user-images.githubusercontent.com/82696858/183892415-184bafdb-fb8c-4f53-9fbd-269413e0e08b.png" height="200">
   
 JS for dismissible card
 ```
@@ -184,20 +191,17 @@ dismissBtn.forEach(eachBtn => {
 
 <hr>
 
-## Image
-<img src="https://user-images.githubusercontent.com/82696858/183892695-db36c24e-4ca9-4019-a611-60d21639ce4b.png" width="100">
-
+## Image<a name="image"></a>
 To make image less circular change the border-radius utility class.
 
 <hr>
 
-## Input
-![image](https://user-images.githubusercontent.com/82696858/184479349-20853e6a-902f-47be-8ca0-7cd8c322e692.png)
+## Input<a name="input"></a>
+Provides default inputs & inputs with validation. 
 
 <hr>
 
-## Snackbar
-![image](https://user-images.githubusercontent.com/82696858/183895397-8f7c0767-56d9-408f-b633-026e0740ef10.png)
+## Snackbar<a name="snackbar"></a>
 
 JS for dismissible snackbars
 ```
@@ -239,10 +243,7 @@ closeBtns.forEach(eachBtn => {
 
 <hr>
 
-## Chip
-![image](https://user-images.githubusercontent.com/82696858/183895824-6d4a174b-0d1f-4510-9fc7-9bdfc2f5831e.png)
-
-![image](https://user-images.githubusercontent.com/82696858/183896027-b3380b38-ca5b-4bbf-81d8-24e8e47906aa.png)
+## Chip<a name="chip"></a>
 
 JS for automated chips
 ```
@@ -333,8 +334,7 @@ container.addEventListener('drop', (e) => {
 
 <hr>
 
-## Dialog
-![image](https://user-images.githubusercontent.com/82696858/184479450-f4d1fd01-250b-4b73-88d0-beff517c7a64.png)
+## Dialog<a name="dialog"></a>
 
 JS for dialog component
 ```
@@ -381,23 +381,24 @@ confirmationDialogCloseBtns.forEach(eachBtn => {
 
 <hr>
 
-## Rating
-![image](https://user-images.githubusercontent.com/82696858/184479524-b322bce3-bfd4-4bbc-b60a-590d46ee7883.png)
+## Rating<a name="rating"></a>
+A star rating comprises of stars with the amount usually at a maximum of five. You let your users rate an item using stars. One star means poor; five is excellent. By selecting more than one star, all previous stars should be filled.
 
 <hr>
 
-## Grid
-![image](https://user-images.githubusercontent.com/82696858/183896720-444ab14a-4ab1-4324-9160-1471f059d662.png)
+## Grid<a name="grid"></a>
+Provides:
+- simplified grid with two items
+- simplified grid with three items.
 
 <hr>
 
-## List 
-![image](https://user-images.githubusercontent.com/82696858/184479580-6597331d-eeec-4ac6-bccf-3c4db19588a8.png)
+## List<a name="list"></a> 
+Provides you list component.
 
 <hr>
 
-## Modal
-![image](https://user-images.githubusercontent.com/82696858/183896935-a2684a8c-15a5-404f-be75-9aa0ee853588.png)
+## Modal<a name="modal"></a>
 
 JS for modal component
 ```
@@ -420,8 +421,8 @@ showModalBtn.addEventListener("click", showModal);
 
 <hr>
 
-## Navigation
-![image](https://user-images.githubusercontent.com/82696858/183897166-0f4fb1f6-79b0-4f87-8d28-7438a7cad991.png)
+## Navigation<a name="navigation"></a>
+Navigation component helps you implement navigation, from simple button clicks to more complex patterns, such as app bars and the navigation drawer.
 
 <hr>
 
