@@ -25,8 +25,9 @@
 3. [Components](#component)
 4. [Shades used](#shades)
 5. [Utility classes](#utility)
-6. [Social Links](#social)
-7. [Contribution guidlines](#contribution)
+6. [Glimpse Of Expeditech UI](#glimpse)
+7. [Social Links](#social)
+8. [Contribution guidlines](#contribution)
 
 <hr>
 
@@ -661,6 +662,14 @@ Gives you utility classes for implementing border-radius.
 
 Expeditech UI takes accountability for user feedbacks, we believe in providing the user the best experience.<br>
 Do let us know any recommendations on further improvements.
+
+## Glimpse Of Expeditech UI<a name="glimpse"></a>
+
+
+https://user-images.githubusercontent.com/82696858/187926416-a30fcc03-50ba-4582-8a4d-7a4a1ad6bb46.mp4
+
+
+
 
 ## Connect to us via social platforms<a name="social"></a>
 [Twitter](https://twitter.com/muse_the_coder) <br>
