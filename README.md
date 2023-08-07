@@ -15,7 +15,7 @@
 
 ### Features
 * reusable utility classes
-* responsive 10+ components with previews
+* responsive 10+ components including 7+ functional components with preview
 * clean ui
 * easy to understand
 
